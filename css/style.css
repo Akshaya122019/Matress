@@ -1,0 +1,154 @@
+
+:root {
+    --primary: #fcff33ab; /* Define the primary color */
+}
+
+html {
+    scroll-behavior: smooth;
+  }       
+  /* -----------------------------------
+    NAV
+  --------------------------------------*/
+  .nav-img{
+    max-width: 150px;
+    width: 100%;
+}
+.nav-link{
+    font-weight: 600;
+    color: black;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.dropdown>.dropdown-menu{
+    background-color: #fff;
+    border: none;
+    border-radius: 0;
+}
+.fa-bars{
+    font-size: 1.5rem;
+}
+.fa-xmark{
+    font-size: 2rem;
+}
+@media screen and (min-width:992px) {
+    .dropdown>.dropdown-menu{
+        visibility: hidden;
+        opacity: 0;
+        top: 100%;
+        display: block;
+        transition: all 0.1s ease-out;
+    }
+    .dropdown:hover>.dropdown-menu{
+        padding: 20px 0;
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        transition: all 0.3s ease-in-out;
+    }
+    .dropdown-item:hover{
+        color: #fff;
+        background-color: black;
+    }
+}
+/* --------------------------------------
+  Home
+----------------------------------------*/
+.carousel-caption {
+    text-align: left;
+    position: absolute;
+    top: 40%; /* Center vertically */
+    left: 10%; /* Align closer to the left edge */
+    transform: translateY(-50%);
+    color: black;
+    font-weight: bold;
+    width: 35%; /* Adjust width for readability */
+    max-width: 90%; /* Limit the width on smaller screens */
+    z-index: 10; /* Ensure it appears on top of the carousel */
+}
+
+.carousel-caption p {
+    font-size: 4rem; /* Default font size for larger screens */
+    line-height: 1.2;
+}
+
+/* For tablets */
+@media (max-width: 768px) {
+    .carousel-caption {
+        top: 35%; /* Adjust top for smaller devices */
+        width: 50%; /* Slightly increase text width */
+    }
+
+    .carousel-caption p {
+        font-size: 2.5rem; /* Reduce font size for tablets */
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 576px) {
+    .carousel-caption {
+        top: 23%; /* Further adjust top position for mobile */
+        left: 5%; /* Maintain alignment from the edge */
+        width: 80%; /* Use most of the available space */
+    }
+
+    .carousel-caption p {
+        font-size: 1.8rem; /* Smaller font size for mobile */
+        padding-top: 31%;
+    }
+}
+@media (max-width: 920px) {
+    .carousel-caption {
+        top: 31%;
+        left: 5%;
+        width: 43%; /* Use most of the available space */
+    }
+
+    .carousel-caption p {
+        font-size: 1.9rem; /* Smaller font size for mobile */
+        padding-top: 28%;
+    }
+}
+
+/* For very small screens */
+@media (max-width: 420px) {
+    .carousel-caption p {
+        font-size: 1.5rem; /* Further reduce font size */
+        line-height: 1.1; /* Compact text spacing */
+        padding-top: 41%;
+    }
+}
+
+
+
+/* ---------------------------------
+    About
+------------------------------------*/
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.section-subtitle {
+    color: #6c757d;
+    font-size: 1rem;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+}
+
+.product-card img {
+    height: 150px;
+    object-fit: contain;
+}
+
+.product-card h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.product-card p {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
