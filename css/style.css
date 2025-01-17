@@ -54,72 +54,53 @@ html {
 /* --------------------------------------
   Home
 ----------------------------------------*/
-.carousel-caption {
-    text-align: left;
+.banner {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+}
+/* Overlay effect with black and opacity */
+.banner::before {
+    content: '';
     position: absolute;
-    top: 40%; /* Center vertically */
-    left: 10%; /* Align closer to the left edge */
-    transform: translateY(-50%);
-    color: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black color with 60% opacity */
+    z-index: 1;
+}
+.carousel-caption {
+    z-index: 2; /* Ensures the text is above the overlay */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Centers text horizontally */
+    width: 100%;
+}
+.carousel-caption h2 {
+    font-size: 50px;
+    text-transform: uppercase;
     font-weight: bold;
-    width: 35%; /* Adjust width for readability */
-    max-width: 90%; /* Limit the width on smaller screens */
-    z-index: 10; /* Ensure it appears on top of the carousel */
+    color: white;
 }
-
-.carousel-caption p {
-    font-size: 4rem; /* Default font size for larger screens */
-    line-height: 1.2;
+.carousel-caption h3 {
+    font-size: 20px;
+    color: white;
 }
-
-/* For tablets */
-@media (max-width: 768px) {
-    .carousel-caption {
-        top: 35%; /* Adjust top for smaller devices */
-        width: 50%; /* Slightly increase text width */
-    }
-
-    .carousel-caption p {
-        font-size: 2.5rem; /* Reduce font size for tablets */
-    }
+.carousel-caption a {
+    background-color: #00c851;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
 }
-
-/* For mobile phones */
-@media (max-width: 576px) {
-    .carousel-caption {
-        top: 23%; /* Further adjust top position for mobile */
-        left: 5%; /* Maintain alignment from the edge */
-        width: 80%; /* Use most of the available space */
-    }
-
-    .carousel-caption p {
-        font-size: 1.8rem; /* Smaller font size for mobile */
-        padding-top: 31%;
-    }
+.carousel-caption a:hover {
+    background-color: #007e33;
 }
-@media (max-width: 920px) {
-    .carousel-caption {
-        top: 31%;
-        left: 5%;
-        width: 43%; /* Use most of the available space */
-    }
-
-    .carousel-caption p {
-        font-size: 1.9rem; /* Smaller font size for mobile */
-        padding-top: 28%;
-    }
-}
-
-/* For very small screens */
-@media (max-width: 420px) {
-    .carousel-caption p {
-        font-size: 1.5rem; /* Further reduce font size */
-        line-height: 1.1; /* Compact text spacing */
-        padding-top: 41%;
-    }
-}
-
-
 
 /* ---------------------------------
     About
