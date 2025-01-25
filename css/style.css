@@ -148,6 +148,118 @@ html {
 }
 
 
+
+/* ---------------------------------
+    OUR CLIENTS
+------------------------------------*/
+  .counters {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    scroll-behavior:smooth;
+  }
+
+  .counter-wrapper {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: 0.3s ease-in-out;
+    /* box-shadow: 0 0.2rem 0.2rem #0006; */
+    flex-direction: column; /* Stack content for better responsiveness */
+  }
+
+  /* .counter-wrapper:nth-child(1) {
+    background: linear-gradient(45deg, pink, crimson);
+  }
+
+  .counter-wrapper:nth-child(2) {
+    background: linear-gradient(45deg, cyan, blue);
+  }
+
+  .counter-wrapper:nth-child(3) {
+    background: linear-gradient(45deg, mediumspringgreen, green);
+  } */
+
+  .counter-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem; /* Add spacing for smaller devices */
+  }
+
+  .counter-info {
+    color: #fff;
+    text-shadow: 1px 1px 1px #0007;
+    text-align: center;
+  }
+
+  .counter-info h1.counter {
+    font: bold 4rem sans-serif;
+  }
+
+  .counter-info p {
+    font: normal 1rem sans-serif;
+    margin-top: 0.4rem;
+  }
+
+  /* Background Section */
+  .count_new {
+    background-image: url(../images/client2.jpg); /* Ensure the path to your image is correct */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex; /* Use Flexbox for content centering */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    height: 60vh; /* Use dynamic height for all devices */
+  }
+
+  @media (max-width: 768px) {
+    .counter-wrapper {
+      padding: 1rem; /* Reduce padding for smaller devices */
+    }
+
+    .counter-icon {
+      font-size: 1.5rem; /* Reduce icon size */
+    }
+
+    .counter-info h1.counter {
+      font-size: 2rem; /* Reduce counter font size */
+    }
+
+    .counter-info p {
+      font-size: 0.9rem; /* Adjust paragraph font size */
+    }
+
+    .count_new {
+      height: 27vh; /* Adjust height for smaller screens */
+    }
+  }
+
+  @media (max-width: 576px) {
+    .count_new {
+      height: 60vh; /* Further reduce height for extra small devices */
+    }
+
+    .counter-wrapper {
+      flex-direction: column;
+      padding: 0.8rem;
+    }
+
+    .counter-info h1.counter {
+      font-size: 2rem;
+    }
+
+    .counter-info p {
+      font-size: 0.8rem;
+    }
+  }
+
+
 /* ---------------------------------
     OUR PROJECTS
 ------------------------------------*/
