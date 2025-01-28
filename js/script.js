@@ -14,3 +14,5 @@ counters.forEach((counter) => {
     counter.innerText = `${currentCount}+`; // Add the '+' symbol
   }, 20); // Adjust the interval duration for speed
 });
+
+
