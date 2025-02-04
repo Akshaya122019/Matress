@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-    <!-- Bootstrap Links -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <style>
-        /*--------------------------------------------------------------
+  /*--------------------------------------------------------------
 # About Two
 --------------------------------------------------------------*/
 .about-two {
@@ -28,7 +14,7 @@
 }
 
 .about-two__left .section-title {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .about-two__left .section-title__line {
@@ -212,44 +198,9 @@
     }
 }
 
-
-    </style>
-</head>
-<body>
-    <!-- About start -->
-    <section class="about-two">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-5">
-                    <div class="about-two__left">
-                        <div class="section-title text-left">
-                            <span class="section-title__tagline">GET TO KNOW ABOUT US</span>
-                            <h1 class="section-title__title">We Make Difference in Your Homes</h1>
-                            <div class="section-title__line"></div>
-                        </div>
-                        <p class="about-two__text-2 p-3">Akshar Furniture is the premium quality brand for Home and Office furniture in Ahmedabad, India. Led by the largest in-house design &amp; Manufaturing team in the Gujarat in the furniture category, Akshar Furniture aims to transform spaces with its thoughtfully designed furniture to create brighter homes and offices with products that have the highest design quotient in aesthetics, functionality and technology. We are using latest technology imported machines for our manufacturing process, so we are able to produce as customer designed and opt.</p>
-
-                    </div>
-                </div>
-                <div class="col-xl-7">
-                    <div class="about-two__right">
-                        <div class="about-two__img-box wow slideInRight" data-wow-delay="100ms"
-                            data-wow-duration="2500ms">
-                            <div class="about-two__img-1">
-                                <img src="images/matt.jpg" alt="about image">
-                            </div>
-                            <div class="about-two__img-2">
-                                <img src="images/sofa-set.jpg" alt="about image">
-                            </div>
-                            <div class="about-two__dot">
-                                <img src="images/about-two-dots.png" alt="about-two-dots">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-       <!-- About End -->
-</body>
-</html>
+.section-title__tagline{
+  font-size: 1rem;
+}
+.section-title__title{
+  font-size: 2rem;
+}

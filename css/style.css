@@ -108,6 +108,9 @@ html {
 .carousel-caption a:hover {
     background-color: #007e33;
 }
+.carousel-slide {
+    transition: transform 1.5s ease, opacity 1.5s ease; /* Smooth transition for sliding and fading */
+  }
 /* ---------------------------------
     ABOUT
 ------------------------------------*/

@@ -23,7 +23,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.min.css" integrity="sha512-xtV3HfYNbQXS/1R1jP53KbFcU9WXiSA1RFKzl5hRlJgdOJm4OxHCWYpskm6lN0xp0XtKGpAfVShpbvlFH3MDAA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
-
+<!-- <style>
+  .carousel-item {
+      transition: transform 1.5s ease, opacity 1.5s ease; /* Smooth transition for sliding and fading */
+    }
+</style> -->
 </head>
 <body>
 
@@ -113,56 +117,42 @@
 
      <!-- home content start-->
     <!-- Home Start -->
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="banner" style="background-image: url(images/carousel-1.jpg);">
-              <div class="carousel-caption text-dark">
-                  <h2>Orthopedic Backpain<br> Relief Mattress</h2>
-                  <h3 class="pb-3">Choosing the right mattress is key to restful, restorative sleep.</h3>
-                  <p><a href="#">Contact Us</a></p>
-                </div>
-          </div>
-          <!-- <img src="..." class="d-block w-100" alt="..."> -->
-         
-        </div>
-        <div class="carousel-item">
-          <div class="banner" style="background-image: url(images/carousel-2.jpg);">
-              <div class="carousel-caption text-dark">
-                <!-- Luxury Sleep, Affordable Comfort – Wake Up Refreshed! -->
-                  <h2>Luxury Sleep <br>Affordable Comfort</h5>
-                  <h3>Indulge in luxury sleep at a price that rejuvenates you.</h3>
-                </div>
-          </div>
-          <!-- <img src="..." class="d-block w-100" alt="..."> -->
-          
-        </div>
-        <div class="carousel-item">
-          <div class="banner" style="background-image: url(images/carousel-3.jpg);">
-              <div class="carousel-caption text-dark">
-                  <h2>Your Best Night’s <br>Sleep Starts Here!</h2>
-                  <h3>Find the mattress that fits your sleep style and transforms your nightly routine.</h3>
-                </div>
-          </div>
-          <!-- <img src="..." class="d-block w-100" alt="..."> -->
-          
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item carousel-slide active">
+      <div class="banner" style="background-image: url(images/carousel-1.jpg);">
+        <div class="carousel-caption text-dark">
+          <h2>Orthopedic Backpain<br> Relief Mattress</h2>
+          <h3 class="pb-3">Choosing the right mattress is key to restful, restorative sleep.</h3>
+          <p><a href="#">Contact Us</a></p>
         </div>
       </div>
-      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button> -->
     </div>
-     <!-- Home End -->
+    <div class="carousel-item carousel-slide">
+      <div class="banner" style="background-image: url(images/carousel-2.jpg);">
+        <div class="carousel-caption text-dark">
+          <h2>Luxury Sleep <br>Affordable Comfort</h2>
+          <h3>Indulge in luxury sleep at a price that rejuvenates you.</h3>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item carousel-slide">
+      <div class="banner" style="background-image: url(images/carousel-3.jpg);">
+        <div class="carousel-caption text-dark">
+          <h2>Your Best Night’s <br>Sleep Starts Here!</h2>
+          <h3>Find the mattress that fits your sleep style and transforms your nightly routine.</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Home End -->
+
 
 
      <!-- About Start -->
