@@ -177,5 +177,114 @@ em {
 
 
 .mat-card{
-    height: 50vh;
+    height: 30vh;
+}
+.mat-item .card .btn{
+    background-color:#c28b20;
+}
+
+
+/* ----------------------------------
+        Pagination
+-------------------------------------*/
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.pagination {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination div {
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 7px 15px;
+    border: 1px solid #f3c56a;
+    background-color: #f0b133;
+    color: black;
+    border-radius: 30%;
+    cursor: pointer;
+}
+
+.pagination .disabled {
+    color: white;
+    border-color: #f3c56a;
+    pointer-events: none;
+    background-color: #f3c56a;
+    border-radius: 30%;
+}
+
+
+@media screen and (max-width: 400px) {
+    .mat-banner{
+        padding-top: 15% !important;
+    }
+}
+@media screen and (min-width: 400px) {
+    .mat-banner{
+        padding-top: 11% !important;
+    }
+}
+@media screen and (min-width:540px) {
+    .mat-banner{
+        padding-top: 5% !important;
+    }
+}
+@media screen and (min-width:990px) {
+    .mat-banner{
+        padding-top: 0 !important;
+    }
+}
+
+.list-group .active{
+    border: 1px solid #f3c56a;
+    background-color: #f0b133 !important;
+}
+.list-group .list-group-item:hover{
+    background-color:#c28b20;
+    border: 1px solid #c28b20;
+}
+
+
+
+.mat-view-image {
+    position: relative;
+    background-color: #f8f9fa;
+}
+
+.mat-view-image img {
+    width: 100%;
+    height: auto;
+}
+
+.mat-view-overlay {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.mat-view-overlay h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.mat-view-overlay .details {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.mat-view-overlay p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
 }

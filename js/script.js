@@ -22,3 +22,7 @@ myCarousel.addEventListener('slid.bs.carousel', function () {
   document.querySelector(".testi-img img").src = activeItem.getAttribute("data-img");
   document.querySelector(".testi-img .circle").style.backgroundColor = activeItem.getAttribute("data-color");
 })
+
+
+
+// Pagination

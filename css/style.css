@@ -182,17 +182,7 @@ html {
     flex-direction: column; /* Stack content for better responsiveness */
   }
 
-  /* .counter-wrapper:nth-child(1) {
-    background: linear-gradient(45deg, pink, crimson);
-  }
 
-  .counter-wrapper:nth-child(2) {
-    background: linear-gradient(45deg, cyan, blue);
-  }
-
-  .counter-wrapper:nth-child(3) {
-    background: linear-gradient(45deg, mediumspringgreen, green);
-  } */
 
   .counter-icon {
     font-size: 2rem;
