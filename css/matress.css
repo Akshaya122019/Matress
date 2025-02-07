@@ -175,13 +175,30 @@ em {
     }
 }
 
-
+.mat-item .card:hover{
+    box-shadow: 10px 10px 10px 10px rgb(204, 204, 204) !important;
+}
+.mat-item .card{
+    box-shadow: 10px 10px 10px 10px rgb(236, 232, 232) !important;
+}
 .mat-card{
     height: 30vh;
 }
 .mat-item .card .btn{
-    background-color:#c28b20;
+    background-color:#dba742;
 }
+.mat-item .mat-card:hover{
+    transition: all .3s ease-in-out;
+    border-radius: 20px;
+}
+.mat-item .mat-card:hover {
+    transform: scale(1.1);
+}
+.mat-item .card .card-body .btn:hover{
+    border: 1px solid #dba742 !important;
+    background-color: white !important;
+}
+
 
 
 /* ----------------------------------
