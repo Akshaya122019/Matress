@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kumar Industries</title>
+    <link href="images/logo.png" rel="icon" />
+
+    <!-- Bootstrap Links -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- External -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+
+    <!-- ICON -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/service.css" rel="stylesheet" />
+
+    <!-- Lightbox CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.min.css"
+      integrity="sha512-xtV3HfYNbQXS/1R1jP53KbFcU9WXiSA1RFKzl5hRlJgdOJm4OxHCWYpskm6lN0xp0XtKGpAfVShpbvlFH3MDAA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <!-- <style>
+  .carousel-item {
+      transition: transform 1.5s ease, opacity 1.5s ease; /* Smooth transition for sliding and fading */
+    }
+</style> -->
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg py-4 py-lg-0 shadow fixed-top">
+      <div class="container px-4">
+        <img src="images/logo.png" class="nav-img" alt="logo" />
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#top-navbar"
+          aria-controls="top-navbar"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="top-navbar"
+          aria-labelledby="top-navbarLabel"
+        >
+          <!-- Navigation bar Content -->
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#top-navbar"
+            aria-controls="top-navbar"
+          >
+            <div class="d-flex justify-content-between p-3">
+              <img src="images/logo.png" class="nav-img" alt="logo" />
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+          </button>
+          <ul class="navbar-nav ms-lg-auto p-4 p-lg-0">
+            <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+              <a class="nav-link" aria-current="page" href="about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item px-3 px-lg-0 py-1 py-lg-4 dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Mattress
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="mattress.html">Mattress</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Premium Soft Mattress</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Super Soft Mattress</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Pocketed Spring Mattress</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Bonel Spring Mattress</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Nano Spring Mattress</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Foam Mattress </a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Coir with Foam Mattress</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Ortho Mattress</a></li>
+                <li><a class="dropdown-item" href="#">Latex Mattress</a></li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+                        <a class="nav-link" aria-current="page" href="#">Services</a>
+                    </li> -->
+            <li class="nav-item px-3 px-lg-0 py-1 py-lg-4 dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="manufacturing.html"
+                    >Customized Manufacturing</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">Customized Bed</a></li>
+                <li><a class="dropdown-item" href="#">Customized Size</a></li>
+                <li><a class="dropdown-item" href="#">Customized Colour</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Customized Bed Covers</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item px-3 px-lg-0 py-1 py-lg-4 dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Products
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">All Products</a></li>
+                <li><a class="dropdown-item" href="#">Beds</a></li>
+                <li><a class="dropdown-item" href="#">Folding Beds</a></li>
+                <li><a class="dropdown-item" href="#">Floor Bed</a></li>
+                <li><a class="dropdown-item" href="#">Sofa come Bed</a></li>
+                <li><a class="dropdown-item" href="#">Headboards</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Sofa Mould Cussion</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Pillows</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Memory Foam Pillows</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Country Neck Pillow</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Recron Pillows</a></li>
+              </ul>
+            </li>
+            <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+              <a class="nav-link" aria-current="page" href="#">Blog</a>
+            </li>
+            <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+              <a class="nav-link" aria-current="page" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Home Start -->
+
+    <!-- home content start-->
+    <!-- Banner Section -->
+    <div class="service_banner">
+      <div class="container">
+        <div class="transbox">
+          <h2 class="ser_con">Tailored to Perfection, Crafted for You!</h2>
+          <p class="ser_con">
+            Expertly crafted to match your unique needs with precision and
+            quality
+          </p>
+          <a href="contact.html" class="btn">Get Started</a>\
+        </div>
+      </div>
+    </div>
+    <!-- Home End -->
+
+    <!-- About Start -->
+    <section class="about">
+      <div class="container mt-5">
+        <div class="container-fluid">
+          <div class="about-head">
+            <!-- <h1 class="text-center">Ultimate Comfort & Luxury</h1> -->
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="about-image px-3">
+                <img
+                  src="images/service_image/manufacturing.jpg"
+                  alt="About Us"
+                  class="img-fluid"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="about-con py-3 px-3">
+                <h2 class="text-left">Customized Manufacturing</h2>
+                <p>
+                  At <b style="color: #daaf39">Kumar Industries</b> we
+                  specialize in
+                  <b style="color: #daaf39">Customized Manufacturing </b>
+                  offering personalized solutions to meet your unique
+                  requirements. Whether you need custom sizes, materials,
+                  colors, or designs, we ensure precision, durability, and
+                  superior craftsmanship in every product. Our services allow
+                  you to design and personalize every aspect of your product,
+                  ensuring it meets your exact requirements. Whether it’s a
+                  mattress, bed, furniture, or any other home essential, we
+                  bring your vision to life with precision and care.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About End -->
+
+    <!-- card slider-->
+    <section class="about">
+      <div class="container mt-5">
+        <div class="container-fluid">
+          <div class="about-head">
+            <h1 class="text-center">Our Specialization</h1>
+          </div>
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <!-- Slide 1 -->
+              <div class="carousel-item active">
+                <div class="cards-wrappers">
+                  <div class="card_service">
+                    <img
+                      src="images/service_image/c_manifacturing.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Customized Manufacturing</h5>
+                      <p class="card-text">
+                        Our customized manufacturing services are designed to
+                        transform your unique ideas into high-quality products.
+                      </p>
+                      <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                  </div>
+                  <div class="card_service d-none d-md-block">
+                    <img
+                      src="images/service_image/c_beds.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Customized Bed</h5>
+                      <p class="card-text">
+                        Our customized beds are meticulously crafted to match
+                        your specific style, space, and sleep requirements.
+                      </p>
+                      <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                  </div>
+                  <div class="card_service d-none d-md-block">
+                    <img
+                      src="images/service_image/c_size.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Customized Size</h5>
+                      <p class="card-text">
+                        Our customized size solutions are designed to cater to
+                        your unique spatial and functional requirements.
+                      </p>
+                      <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide 2 -->
+              <div class="carousel-item">
+                <div class="cards-wrappers">
+                  <div class="card_service d-none d-md-block">
+                    <img
+                      src="images/service_image/c_c_bed.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Customized Bedcover</h5>
+                      <p class="card-text">
+                        Our customized bedcovers are designed to not only
+                        provide exceptional comfort but also to enhance the
+                        style of your bedroom
+                      </p>
+                      <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                  </div>
+                  <div class="card_service">
+                    <img
+                      src="images/service_image/c_color.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Customized Colour</h5>
+                      <p class="card-text">
+                        Our customized bedcovers are designed to not only
+                        provide exceptional comfort but also to enhance the
+                        style of your bedroom
+                      </p>
+                      <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                  </div>
+
+                  <div class="card_service d-none d-md-block">
+                    <img
+                      src="images/service_image/c_manifacturing.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Customized Manufacturing</h5>
+                      <p class="card-text">
+                        Our customized manufacturing services are designed to
+                        transform your unique ideas into high-quality products.
+                      </p>
+                      <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide 3 -->
+            </div>
+            <!-- Carousel Controls -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end cardslider-->
+
+    <!-- Projects Starts -->
+    <section class="count_new">
+      <div class="container-fluid py-5 d-flex justify-content-center">
+        <div class="row gy-4 w-100 justify-content-center">
+          <!-- Counter 1 -->
+          <div class="col-12 col-md-4 d-flex justify-content-center">
+            <div class="counter-wrapper text-center">
+              <!-- <span class="counter-icon">👨‍👩‍👧‍👧</span> -->
+              <div class="counter-info">
+                <h1 class="counter" data-count="35">0</h1>
+                <p>Monthly Visitors</p>
+              </div>
+            </div>
+          </div>
+          <!-- Counter 2 -->
+          <div class="col-12 col-md-4 d-flex justify-content-center">
+            <div class="counter-wrapper text-center">
+              <!-- <span class="counter-icon">💼</span> -->
+              <div class="counter-info">
+                <h1 class="counter" data-count="2200">0</h1>
+                <p>Total Projects</p>
+              </div>
+            </div>
+          </div>
+          <!-- Counter 3 -->
+          <div class="col-12 col-md-4 d-flex justify-content-center">
+            <div class="counter-wrapper text-center">
+              <!-- <span class="counter-icon">👨‍👧‍👧</span> -->
+              <div class="counter-info">
+                <h1 class="counter" data-count="12000000">0</h1>
+                <p>Happy Clients</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projects End -->
+
+    <!--card start-->
+<section class="about mb-4">
+    <div class="container mt-4">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card">
+            <center>
+              <img
+                src="images/icon/gear.png"
+                class="card-img-top"
+                alt="Image"
+                style="width: 50%; height: 25vh"
+              />
+            </center>
+            <div class="card-body">
+              <!-- <span class="badge bg-primary">Cinema</span> -->
+              <h5 class="card-title">Customized Manufacturing</h5>
+              <p class="card-text">
+                At Kumar Industies, we transform your unique ideas into
+                high-quality, precision-engineered products through our
+                customized manufacturing services.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-md-4">
+          <div class="card p-3">
+            <span class="badge bg-danger">World</span>
+            <h5 class="card-title">
+              Vivamus odio ante, feugiat eget nisi sit amet
+            </h5>
+            <div class="card-footer d-flex align-items-center">
+              <img src="https://via.placeholder.com/30" alt="Profile" />
+              <span class="ms-2">Patrick Wood</span>
+              <span class="ms-auto">❤ 342 45</span>
+            </div>
+          </div>
+        </div> -->
+        <!-- <div class="col-md-4">
+          <div class="card bg-danger text-white p-3">
+            <h5>Customized Size</h5>
+            <p>Built to Your Specifications</p>
+            <p>
+              Our commitment to precision means that every product is crafted to
+              match your exact measurements and design preferences.
+            </p>
+            <button class="btn btn-light">READ MORE</button>
+          </div>
+        </div> -->
+        <div class="col-md-4">
+          <div class="card text-white p-3" style="background-color: #daaf39">
+            <!-- <h5>Customized Colour</h5> -->
+            <p>
+              "Our commitment to precision means that every product is crafted
+              to match your exact measurements and design preferences."
+            </p>
+            <div class="d-flex align-items-center">
+              <img src="images/icon/gear (1).png" alt="Profile" />
+              <h5>Customized Size</h5>
+              <!-- <span class="ms-2">Debbon Arnet</span> -->
+              <!--  <span class="ms-auto">💬 305 👍 100</span> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+          <center>
+              <img
+                src="images/icon/gear.png"
+                class="card-img-top"
+                alt="Image"
+                style="width: 50%; height: 25vh"
+              />
+            </center>
+            <div class="card-body">
+              <!-- <span class="badge bg-primary">Cinema</span> -->
+              <h5 class="card-title">Customized Bed</h5>
+              <p class="card-text">
+                Our advanced finishing techniques ensure a consistent,
+                long-lasting colour that remains vibrant wash after wash.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-white p-3" style="background-color: #daaf39">
+            <!-- <h5>Customized Colour</h5> -->
+            <p>
+              "Choose from a wide range of colours and finishes, from bold and
+              vibrant to subtle and sophisticated."
+            </p>
+            <div class="d-flex align-items-center">
+              <img src="images/icon/gear (1).png" alt="Profile" />
+              <h5>Customized Colour</h5>
+              <!-- <span class="ms-2">Debbon Arnet</span> -->
+              <!--  <span class="ms-auto">💬 305 👍 100</span> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <center>
+              <img
+                src="images/icon/gear.png"
+                class="card-img-top"
+                alt="Image"
+                style="width: 50%; height: 25vh"
+              />
+            </center>
+            <div class="card-body">
+              <!-- <span class="badge bg-primary">Cinema</span> -->
+              <h5 class="card-title">Customized Bedcovers</h5>
+              <p class="card-text">
+                Choose from an extensive range of fabrics, patterns, and
+                textures to create a bedcover that perfectly matches your décor
+                and lifestyle.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-md-4">
+          <div class="card bg-danger text-white p-3">
+            <h5>Customized Manufacturing</h5>
+
+            <p>
+              "Collaborate with our experienced team to develop designs that
+              align perfectly with your specific needs and creative vision."
+            </p>
+            <button class="btn btn-light">READ MORE</button>
+          </div>
+        </div> -->
+        <div class="col-md-4">
+          <div class="card text-white p-3" style="background-color: #daaf39">
+            <!-- <h5>Customized Colour</h5> -->
+            <p>
+              "Collaborate with our experienced team to develop designs that
+              align perfectly with your specific needs and creative vision."
+            </p>
+            <div class="d-flex align-items-center">
+              <img src="images/icon/gear (1).png" alt="Profile" />
+              <h5>Customized Manufacturing</h5>
+              <!-- <span class="ms-2">Debbon Arnet</span> -->
+              <!--  <span class="ms-auto">💬 305 👍 100</span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+    <!--cardend-->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="row foot-row">
+        <div class="col-md-3 foot-sec">
+          <img
+            src="images/logo-white.png"
+            class="logo"
+            style="max-width: 150px"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+            libero quis natus laboriosam expedita explicabo eligendi laborum
+            facere dignissimos!
+          </p>
+        </div>
+        <div class="col-md-3 foot-sec">
+          <h3>
+            Location
+            <div class="underline"><span></span></div>
+          </h3>
+          <p>
+            1J/9, Thamarikullam Street, Railway Feeder Road, Kottar, Nagercoil.
+            629002
+          </p>
+          <p>9487411824 9789503035 8148196685</p>
+        </div>
+        <div class="col-md-3 foot-sec">
+          <h3>
+            Links
+            <div class="underline"><span></span></div>
+          </h3>
+          <ul class="foot-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 foot-sec">
+          <h3>
+            Get in Touch
+            <div class="underline"><span></span></div>
+          </h3>
+          <div class="social-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">
+        © 2025 Kumar Industies all Rights Reserved. Designed and Developed by
+        <a
+          href="https://feathersoftwares.com/"
+          target="_blank"
+          class="text-decoration-none text-white"
+          style="font-weight: bold"
+          >Feather Softwares</a
+        >
+      </p>
+    </footer>
+    <!-- Footer End -->
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <!-- JS ADD -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

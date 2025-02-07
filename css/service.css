@@ -1,0 +1,104 @@
+.service_banner {
+  background-image: url("../images/service_image/ser2.jpg"); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding-top: 10%;
+}
+.service_banner h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.service_banner p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.service_banner .btn {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  background-color: #daaf39;
+}
+.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  padding-bottom: 2%;
+  padding-top: 1%;
+}
+
+.ser_con {
+  font-weight: bold;
+  color: #000000;
+}
+
+/* cardslide*/
+
+.cards-wrappers {
+  display: flex;
+  justify-content: center;
+}
+.card_service img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.card_service {
+  width: 33.33%;
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+}
+.carousel-inner {
+  padding: 1em;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+  .card_service img {
+    height: 17em;
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .card_service {
+    width: 100%;
+  }
+}
+
+.card_service .card-body {
+  padding-left: 3%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.card_service .btn {
+  background-color: #daaf39;
+  border-color: #daaf39;
+}
+
+.card_ser {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.category {
+  font-size: 14px;
+  font-weight: bold;
+}
+.card-footer img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
