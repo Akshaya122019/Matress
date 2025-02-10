@@ -28,290 +28,303 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
 
     <!-- Style -->
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/matress.css" rel="stylesheet" />
 
     <style>
-        .blog-listing {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-.gray-bg {
-    background-color: #f5f5f5;
-}
-/* Blog 
+      .blog-listing {
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+      .gray-bg {
+        background-color: #f5f5f5;
+      }
+      /* Blog 
 ---------------------*/
-.blog-grid {
-  box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
-  border-radius: 5px;
-  overflow: hidden;
-  background: #ffffff;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-.blog-grid .blog-img {
-  position: relative;
-}
-.blog-grid .blog-img .date {
-  position: absolute;
-  background: #fc5356;
-  color: #ffffff;
-  padding: 8px 15px;
-  left: 10px;
-  top: 10px;
-  border-radius: 4px;
-}
-.blog-grid .blog-img .date span {
-  font-size: 22px;
-  display: block;
-  line-height: 22px;
-  font-weight: 700;
-}
-.blog-grid .blog-img .date label {
-  font-size: 14px;
-  margin: 0;
-}
-.blog-grid .blog-info {
-  padding: 20px;
-}
-.blog-grid .blog-info h5 {
-  font-size: 22px;
-  font-weight: 700;
-  margin: 0 0 10px;
-}
-.blog-grid .blog-info h5 a {
-  color: #20247b;
-}
-.blog-grid .blog-info p {
-  margin: 0;
-}
-.blog-grid .blog-info .btn-bar {
-  margin-top: 20px;
-}
+      .blog-grid {
+        box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+        border-radius: 5px;
+        overflow: hidden;
+        background: #ffffff;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+      .blog-grid .blog-img {
+        position: relative;
+      }
+      .blog-grid .blog-img .date {
+        position: absolute;
+        background: #daaf39;
+        color: #ffffff;
+        padding: 8px 15px;
+        left: 10px;
+        top: 10px;
+        border-radius: 4px;
+      }
+      .blog-grid .blog-img .date span {
+        font-size: 22px;
+        display: block;
+        line-height: 22px;
+        font-weight: 700;
+      }
+      .blog-grid .blog-img .date label {
+        font-size: 14px;
+        margin: 0;
+      }
+      .blog-grid .blog-info {
+        padding: 20px;
+      }
+      .blog-grid .blog-info h5 {
+        font-size: 22px;
+        font-weight: 700;
+        margin: 0 0 10px;
+      }
+      .blog-grid .blog-info h5 a {
+        color: #daaf39;
+      }
+      .blog-grid .blog-info p {
+        margin: 0;
+      }
+      .blog-grid .blog-info .btn-bar {
+        margin-top: 20px;
+      }
 
-
-/* Blog Sidebar
+      /* Blog Sidebar
 -------------------*/
-.blog-aside .widget {
-  box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
-  border-radius: 5px;
-  overflow: hidden;
-  background: #ffffff;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  width: 100%;
-  display: inline-block;
-  vertical-align: top;
-}
-.blog-aside .widget-body {
-  padding: 15px;
-}
-.blog-aside .widget-title {
-  padding: 15px;
-  border-bottom: 1px solid #eee;
-}
-.blog-aside .widget-title h3 {
-  font-size: 20px;
-  font-weight: 700;
-  color: #fc5356;
-  margin: 0;
-}
-.blog-aside .widget-author .media {
-  margin-bottom: 15px;
-}
-.blog-aside .widget-author p {
-  font-size: 16px;
-  margin: 0;
-}
-.blog-aside .widget-author .avatar {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  overflow: hidden;
-}
-.blog-aside .widget-author h6 {
-  font-weight: 600;
-  color: #20247b;
-  font-size: 22px;
-  margin: 0;
-  padding-left: 20px;
-}
-.blog-aside .post-aside {
-  margin-bottom: 15px;
-}
-.blog-aside .post-aside .post-aside-title h5 {
-  margin: 0;
-}
-.blog-aside .post-aside .post-aside-title a {
-  font-size: 18px;
-  color: #20247b;
-  font-weight: 600;
-}
-.blog-aside .post-aside .post-aside-meta {
-  padding-bottom: 10px;
-}
-.blog-aside .post-aside .post-aside-meta a {
-  color: #6F8BA4;
-  font-size: 12px;
-  text-transform: uppercase;
-  display: inline-block;
-  margin-right: 10px;
-}
-.blog-aside .latest-post-aside + .latest-post-aside {
-  border-top: 1px solid #eee;
-  padding-top: 15px;
-  margin-top: 15px;
-}
-.blog-aside .latest-post-aside .lpa-right {
-  width: 90px;
-}
-.blog-aside .latest-post-aside .lpa-right img {
-  border-radius: 3px;
-}
-.blog-aside .latest-post-aside .lpa-left {
-  padding-right: 15px;
-}
-.blog-aside .latest-post-aside .lpa-title h5 {
-  margin: 0;
-  font-size: 15px;
-}
-.blog-aside .latest-post-aside .lpa-title a {
-  color: #20247b;
-  font-weight: 600;
-}
-.blog-aside .latest-post-aside .lpa-meta a {
-  color: #6F8BA4;
-  font-size: 12px;
-  text-transform: uppercase;
-  display: inline-block;
-  margin-right: 10px;
-}
+      .blog-aside .widget {
+        box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+        border-radius: 5px;
+        overflow: hidden;
+        background: #ffffff;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+        display: inline-block;
+        vertical-align: top;
+      }
+      .blog-aside .widget-body {
+        padding: 15px;
+      }
+      .blog-aside .widget-title {
+        padding: 15px;
+        border-bottom: 1px solid #eee;
+      }
+      .blog-aside .widget-title h3 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #daaf39;
+        margin: 0;
+      }
+      .blog-aside .widget-author .media {
+        margin-bottom: 15px;
+      }
+      .blog-aside .widget-author p {
+        font-size: 16px;
+        margin: 0;
+      }
+      .blog-aside .widget-author .avatar {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      .blog-aside .widget-author h6 {
+        font-weight: 600;
+        color: #20247b;
+        font-size: 22px;
+        margin: 0;
+        padding-left: 20px;
+      }
+      .blog-aside .post-aside {
+        margin-bottom: 15px;
+      }
+      .blog-aside .post-aside .post-aside-title h5 {
+        margin: 0;
+      }
+      .blog-aside .post-aside .post-aside-title a {
+        font-size: 18px;
+        color: #20247b;
+        font-weight: 600;
+      }
+      .blog-aside .post-aside .post-aside-meta {
+        padding-bottom: 10px;
+      }
+      .blog-aside .post-aside .post-aside-meta a {
+        color: #6f8ba4;
+        font-size: 12px;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-right: 10px;
+      }
+      .blog-aside .latest-post-aside + .latest-post-aside {
+        border-top: 1px solid #eee;
+        padding-top: 15px;
+        margin-top: 15px;
+      }
+      .blog-aside .latest-post-aside .lpa-right {
+        width: 90px;
+      }
+      .blog-aside .latest-post-aside .lpa-right img {
+        border-radius: 3px;
+      }
+      .blog-aside .latest-post-aside .lpa-left {
+        padding-right: 15px;
+      }
+      .blog-aside .latest-post-aside .lpa-title h5 {
+        margin: 0;
+        font-size: 15px;
+      }
+      .blog-aside .latest-post-aside .lpa-title a {
+        color: #20247b;
+        font-weight: 600;
+      }
+      .blog-aside .latest-post-aside .lpa-meta a {
+        color: #6f8ba4;
+        font-size: 12px;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-right: 10px;
+      }
 
-.tag-cloud a {
-  padding: 4px 15px;
-  font-size: 13px;
-  color: #ffffff;
-  background: #20247b;
-  border-radius: 3px;
-  margin-right: 4px;
-  margin-bottom: 4px;
-}
-.tag-cloud a:hover {
-  background: #fc5356;
-}
+      .tag-cloud a {
+        padding: 4px 15px;
+        font-size: 13px;
+        color: #ffffff;
+        background: #20247b;
+        border-radius: 3px;
+        margin-right: 4px;
+        margin-bottom: 4px;
+      }
+      .tag-cloud a:hover {
+        background: #daaf39;
+      }
 
-.blog-single {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
+      .blog-single {
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
 
-.article {
-  box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
-  border-radius: 5px;
-  overflow: hidden;
-  background: #ffffff;
-  padding: 15px;
-  margin: 15px 0 30px;
-}
-.article .article-title {
-  padding: 15px 0 20px;
-}
-.article .article-title h6 {
-  font-size: 14px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-.article .article-title h6 a {
-  text-transform: uppercase;
-  color: #fc5356;
-  border-bottom: 1px solid #fc5356;
-}
-.article .article-title h2 {
-  color: #20247b;
-  font-weight: 600;
-}
-.article .article-title .media {
-  padding-top: 15px;
-  border-bottom: 1px dashed #ddd;
-  padding-bottom: 20px;
-}
-.article .article-title .media .avatar {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  overflow: hidden;
-}
-.article .article-title .media .media-body {
-  padding-left: 8px;
-}
-.article .article-title .media .media-body label {
-  font-weight: 600;
-  color: #fc5356;
-  margin: 0;
-}
-.article .article-title .media .media-body span {
-  display: block;
-  font-size: 12px;
-}
-.article .article-content h1,
-.article .article-content h2,
-.article .article-content h3,
-.article .article-content h4,
-.article .article-content h5,
-.article .article-content h6 {
-  color: #20247b;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-.article .article-content blockquote {
-  max-width: 600px;
-  padding: 15px 0 30px 0;
-  margin: 0;
-}
-.article .article-content blockquote p {
-  font-size: 20px;
-  font-weight: 500;
-  color: #fc5356;
-  margin: 0;
-}
-.article .article-content blockquote .blockquote-footer {
-  color: #20247b;
-  font-size: 16px;
-}
-.article .article-content blockquote .blockquote-footer cite {
-  font-weight: 600;
-}
-.article .tag-cloud {
-  padding-top: 10px;
-}
+      .article {
+        box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+        border-radius: 5px;
+        overflow: hidden;
+        background: #ffffff;
+        padding: 15px;
+        margin: 15px 0 30px;
+      }
+      .article .article-title {
+        padding: 15px 0 20px;
+      }
+      .article .article-title h6 {
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+      .article .article-title h6 a {
+        text-transform: uppercase;
+        color: #daaf39;
+        border-bottom: 1px solid #daaf39;
+      }
+      .article .article-title h2 {
+        color: #20247b;
+        font-weight: 600;
+      }
+      .article .article-title .media {
+        padding-top: 15px;
+        border-bottom: 1px dashed #ddd;
+        padding-bottom: 20px;
+      }
+      .article .article-title .media .avatar {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      .article .article-title .media .media-body {
+        padding-left: 8px;
+      }
+      .article .article-title .media .media-body label {
+        font-weight: 600;
+        color: #daaf39;
+        margin: 0;
+      }
+      .article .article-title .media .media-body span {
+        display: block;
+        font-size: 12px;
+      }
+      .article .article-content h1,
+      .article .article-content h2,
+      .article .article-content h3,
+      .article .article-content h4,
+      .article .article-content h5,
+      .article .article-content h6 {
+        color: #20247b;
+        font-weight: 600;
+        margin-bottom: 15px;
+      }
+      .article .article-content blockquote {
+        max-width: 600px;
+        padding: 15px 0 30px 0;
+        margin: 0;
+      }
+      .article .article-content blockquote p {
+        font-size: 20px;
+        font-weight: 500;
+        color: #daaf39;
+        margin: 0;
+      }
+      .article .article-content blockquote .blockquote-footer {
+        color: #20247b;
+        font-size: 16px;
+      }
+      .article .article-content blockquote .blockquote-footer cite {
+        font-weight: 600;
+      }
+      .article .tag-cloud {
+        padding-top: 10px;
+      }
 
-.article-comment {
-  box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
-  border-radius: 5px;
-  overflow: hidden;
-  background: #ffffff;
-  padding: 20px;
-}
-.article-comment h4 {
-  color: #20247b;
-  font-weight: 700;
-  margin-bottom: 25px;
-  font-size: 22px;
-}
-img {
-    max-width: 100%;
-}
-img {
-    vertical-align: middle;
-    border-style: none;
-}
+      .article-comment {
+        box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+        border-radius: 5px;
+        overflow: hidden;
+        background: #ffffff;
+        padding: 20px;
+      }
+      .article-comment h4 {
+        color: #20247b;
+        font-weight: 700;
+        margin-bottom: 25px;
+        font-size: 22px;
+      }
+      img {
+        max-width: 100%;
+      }
+      img {
+        vertical-align: middle;
+        border-style: none;
+      }
+      .lpa-title a {
+        text-decoration: none;
+      }
+      .blog-info a {
+        text-decoration: none;
+      }
+      .widget-body a {
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg py-lg-0 shadow fixed-top">
+    <nav class="navbar navbar-expand-lg py-4 py-lg-0 shadow fixed-top">
       <div class="container px-4">
         <img src="images/logo.png" class="nav-img" alt="logo" />
         <button
@@ -408,8 +421,8 @@ img {
               </ul>
             </li>
             <!-- <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
-                    <a class="nav-link" aria-current="page" href="#">Services</a>
-                </li> -->
+                        <a class="nav-link" aria-current="page" href="#">Services</a>
+                    </li> -->
             <li class="nav-item px-3 px-lg-0 py-1 py-lg-4 dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -423,13 +436,29 @@ img {
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a class="dropdown-item" href="#">Customized Manufacturing</a>
+                  <a class="dropdown-item" href="manufacturing.html"
+                    >Customized Manufacturing</a
+                  >
                 </li>
-                <li><a class="dropdown-item" href="#">Customized Bed</a></li>
-                <li><a class="dropdown-item" href="#">Customized Size</a></li>
-                <li><a class="dropdown-item" href="#">Customized Colour</a></li>
                 <li>
-                  <a class="dropdown-item" href="#">Customized Bed Covers</a>
+                  <a class="dropdown-item" href="customized_bed.html"
+                    >Customized Bed</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="customized_size.html"
+                    >Customized Size</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="customized_color.html"
+                    >Customized Colour</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="customized_cover.html"
+                    >Customized Bed Covers</a
+                  >
                 </li>
               </ul>
             </li>
@@ -445,192 +474,271 @@ img {
                 Products
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">All Products</a></li>
-                <li><a class="dropdown-item" href="#">Beds</a></li>
-                <li><a class="dropdown-item" href="#">Folding Beds</a></li>
-                <li><a class="dropdown-item" href="#">Floor Bed</a></li>
-                <li><a class="dropdown-item" href="#">Sofa come Bed</a></li>
-                <li><a class="dropdown-item" href="#">Headboards</a></li>
                 <li>
-                  <a class="dropdown-item" href="#">Sofa Mould Cussion</a>
+                  <a class="dropdown-item" href="all-products.html"
+                    >All Products</a
+                  >
                 </li>
-                <li><a class="dropdown-item" href="#">Pillows</a></li>
+                <li><a class="dropdown-item" href="beds.html">Beds</a></li>
                 <li>
-                  <a class="dropdown-item" href="#">Memory Foam Pillows</a>
+                  <a class="dropdown-item" href="folding-beds.html"
+                    >Folding Beds</a
+                  >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">Country Neck Pillow</a>
+                  <a class="dropdown-item" href="floor-bed.html">Floor Bed</a>
                 </li>
-                <li><a class="dropdown-item" href="#">Recron Pillows</a></li>
+                <li>
+                  <a class="dropdown-item" href="sofa-come.html"
+                    >Sofa come Bed</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="headboards.html">Headboards</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="sofa-mould.html"
+                    >Sofa Mould Cushion</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="pillows.html">Pillows</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="memory-foam.html"
+                    >Memory Foam Pillows</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="country-neck.html"
+                    >Country Neck Pillow</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="recron.html">Recron Pillows</a>
+                </li>
               </ul>
             </li>
             <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
-              <a class="nav-link" aria-current="page" href="#">Blog</a>
+              <a class="nav-link" aria-current="page" href="blog.html">Blog</a>
             </li>
             <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
-              <a class="nav-link" aria-current="page" href="#">Contact</a>
+              <a class="nav-link" aria-current="page" href="contact.html"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
     <!-- Home Page Start -->
     <div class="mat-banner mt-5">
       <div class="container-fluid m-0 p-0">
-        <img
-          src="images/mattress/kumar.jpg"
-          class="img-fluid"
-          style="width: 100%"
-        />
+        <img src="images/blog-ban.jpg" style="width: 100%" />
       </div>
     </div>
     <!-- Home Page End -->
 
- <section class="blog-listing gray-bg">
-        <div class="container">
-            <div class="row align-items-start">
-                <div class="col-lg-8 m-15px-tb">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="blog-grid">
-                                <div class="blog-img">
-                                    <div class="date">
+    <section class="blog-listing gray-bg">
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col-lg-8 m-15px-tb">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="blog-grid">
+                  <div class="blog-img">
+                    <!-- <div class="date">
                                         <span>04</span>
                                         <label>FEB</label>
-                                    </div>
-                                    <a href="#">
-                                        <img src="https://www.bootdey.com/image/400x200/FFB6C1/000000" title="" alt="">
-                                    </a>
-                                </div>
-                                <div class="blog-info">
-                                    <h5><a href="#">Prevent 75% of visitors from google analytics</a></h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <div class="btn-bar">
-                                        <a href="#" class="px-btn-arrow">
-                                            <span>Read More</span>
-                                            <i class="arrow"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="blog-grid">
-                                <div class="blog-img">
-                                    <div class="date">
+                                    </div> -->
+                    <a href="manufacturing.html">
+                      <img src="images/service_image/cc.jpg" title="" alt="" />
+                    </a>
+                  </div>
+                  <div class="blog-info">
+                    <h5>
+                      <a href="manufacturing.html">
+                        The Future of Customized Manufacturing</a
+                      >
+                    </h5>
+                    <p>
+                      In today’s competitive world, customization is key. From
+                      personalized designs to tailored production, customized
+                      manufacturing is transforming industries.
+                    </p>
+                    <div class="btn-bar">
+                      <a href="manufacturing.html" class="px-btn-arrow">
+                        <span>Read More</span>
+                        <i class="arrow"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="blog-grid">
+                  <div class="blog-img">
+                    <!-- <div class="date">
                                         <span>04</span>
                                         <label>FEB</label>
-                                    </div>
-                                    <a href="#">
-                                        <img src="https://www.bootdey.com/image/400x200/D3D3D3/000000" title="" alt="">
-                                    </a>
-                                </div>
-                                <div class="blog-info">
-                                    <h5><a href="#">Prevent 75% of visitors from google analytics</a></h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <div class="btn-bar">
-                                        <a href="#" class="px-btn-arrow">
-                                            <span>Read More</span>
-                                            <i class="arrow"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="blog-grid">
-                                <div class="blog-img">
-                                    <div class="date">
+                                    </div> -->
+                    <a href="customized_cover.html">
+                      <img src="images/service_image/cc4.jpg" title="" alt="" />
+                    </a>
+                  </div>
+                  <div class="blog-info">
+                    <h5>
+                      <a href="customized_size.html"
+                        >Customized Bed Covers: Designing Comfort Your Way</a
+                      >
+                    </h5>
+                    <p>
+                      Customization is more than aesthetics—it's about comfort.
+                      Explore fabrics, colors, and patterns for customized bed
+                      covers that enhance your space.
+                    </p>
+                    <div class="btn-bar">
+                      <a href="customized_cover.html" class="px-btn-arrow">
+                        <span>Read More</span>
+                        <i class="arrow"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="blog-grid">
+                  <div class="blog-img">
+                    <!-- <div class="date">
                                         <span>04</span>
                                         <label>FEB</label>
-                                    </div>
-                                    <a href="#">
-                                        <img src="https://www.bootdey.com/image/400x200/87CEFA/000000" title="" alt="">
-                                    </a>
-                                </div>
-                                <div class="blog-info">
-                                    <h5><a href="#">Prevent 75% of visitors from google analytics</a></h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <div class="btn-bar">
-                                        <a href="#" class="px-btn-arrow">
-                                            <span>Read More</span>
-                                            <i class="arrow"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="blog-grid">
-                                <div class="blog-img">
-                                    <div class="date">
+                                    </div> -->
+                    <a href="manufacturing.html">
+                      <img
+                        src="images/service_image/cc2 (2).jpg"
+                        title=""
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="blog-info">
+                    <h5>
+                      <a href="manufacturing.html"
+                        >Quality Control in Manufacturing</a
+                      >
+                    </h5>
+                    <p>
+                      Quality is our priority at Kumar Industries. We implement
+                      strict quality control, testing, and precision
+                      manufacturing to ensure excellence in every product.
+                    </p>
+                    <div class="btn-bar">
+                      <a href="manufacturing.html" class="px-btn-arrow">
+                        <span>Read More</span>
+                        <i class="arrow"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="blog-grid">
+                  <div class="blog-img">
+                    <!-- <div class="date">
                                         <span>04</span>
                                         <label>FEB</label>
-                                    </div>
-                                    <a href="#">
-                                        <img src="https://www.bootdey.com/image/400x200/D3D3D3/000000" title="" alt="">
-                                    </a>
-                                </div>
-                                <div class="blog-info">
-                                    <h5><a href="#">Prevent 75% of visitors from google analytics</a></h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <div class="btn-bar">
-                                        <a href="#" class="px-btn-arrow">
-                                            <span>Read More</span>
-                                            <i class="arrow"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="blog-grid">
-                                <div class="blog-img">
-                                    <div class="date">
+                                    </div> -->
+                    <a href="customized_bed.html">
+                      <img src="images/service_image/cc3.jpg" title="" alt="" />
+                    </a>
+                  </div>
+                  <div class="blog-info">
+                    <h5>
+                      <a href="customized_bed.html"
+                        >The Role of Innovation in Modern Manufacturing</a
+                      >
+                    </h5>
+                    <p>
+                      Kumar Industries leverages automation and AI-driven
+                      production to enhance efficiency and precision. Explore
+                      how technology is shaping the future of manufacturing.
+                    </p>
+                    <div class="btn-bar">
+                      <a href="customized_bed.html" class="px-btn-arrow">
+                        <span>Read More</span>
+                        <i class="arrow"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="blog-grid">
+                  <div class="blog-img">
+                    <!-- <div class="date">
                                         <span>04</span>
                                         <label>FEB</label>
-                                    </div>
-                                    <a href="#">
-                                        <img src="https://www.bootdey.com/image/400x200/E0FFFF/000000" title="" alt="">
-                                    </a>
-                                </div>
-                                <div class="blog-info">
-                                    <h5><a href="#">Prevent 75% of visitors from google analytics</a></h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <div class="btn-bar">
-                                        <a href="#" class="px-btn-arrow">
-                                            <span>Read More</span>
-                                            <i class="arrow"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="blog-grid">
-                                <div class="blog-img">
-                                    <div class="date">
+                                    </div> -->
+                    <a href="customized_color.html">
+                      <img src="images/service_image/cc7.jpg" title="" alt="" />
+                    </a>
+                  </div>
+                  <div class="blog-info">
+                    <h5>
+                      <a href="customized_color.html"
+                        >Choosing the Perfect Color for Your Customized
+                        Product</a
+                      >
+                    </h5>
+                    <p>
+                      Color plays a significant role in design and branding.
+                      This guide explores color psychology, trends, and
+                      customization options to help you find the perfect shade
+                      for your custom-made products.
+                    </p>
+                    <div class="btn-bar">
+                      <a href="customized_color.html" class="px-btn-arrow">
+                        <span>Read More</span>
+                        <i class="arrow"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="blog-grid">
+                  <div class="blog-img">
+                    <!-- <div class="date">
                                         <span>04</span>
                                         <label>FEB</label>
-                                    </div>
-                                    <a href="#">
-                                        <img src="https://www.bootdey.com/image/400x200/FFF0F5/000000" title="" alt="">
-                                    </a>
-                                </div>
-                                <div class="blog-info">
-                                    <h5><a href="#">Prevent 75% of visitors from google analytics</a></h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <div class="btn-bar">
-                                        <a href="#" class="px-btn-arrow">
-                                            <span>Read More</span>
-                                            <i class="arrow"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- <div class="col-12">
+                                    </div> -->
+                    <a href="customized_size.html">
+                      <img src="images/service_image/cc6.jpg" title="" alt="" />
+                    </a>
+                  </div>
+                  <div class="blog-info">
+                    <h5>
+                      <a href="customized_size.html"
+                        >The Importance of Customized Dimensions in
+                        Manufacturing</a
+                      >
+                    </h5>
+                    <p>
+                      Customized sizing enhances usability and maximizes space
+                      efficiency, from furniture to industrial components.
+                      Discover how the right dimensions improve functionality.
+                    </p>
+                    <div class="btn-bar">
+                      <a href="customized_size.html" class="px-btn-arrow">
+                        <span>Read More</span>
+                        <i class="arrow"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="col-12">
                             <ul class="pagination justify-content-center">
                                 <li class="page-item disabled">
                                     <a class="page-link" href="#" tabindex="-1"><i class="fas fa-chevron-left"></i></a>
@@ -645,198 +753,206 @@ img {
                                 </li>
                             </ul>
                         </div> -->
-                    </div>
-                </div>
-
-                <div class="col-lg-4 m-15px-tb blog-aside">
-                    <!-- Author -->
-                    <div class="widget widget-author">
-                        <div class="widget-title">
-                            <h3>Author</h3>
-                        </div>
-                        <div class="widget-body">
-                            <div class="media align-items-center">
-                                <div class="avatar">
-                                    <img src="https://bootdey.com/img/Content/avatar/avatar6.png" title="" alt="">
-                                </div>
-                                <div class="media-body">
-                                    <h6>Hello, I'm<br> Rachel Roth</h6>
-                                </div>
-                            </div>
-                            <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores</p>
-                        </div>
-                    </div>
-                    <!-- End Author -->
-
-                    <!-- Trending Post -->
-                    <div class="widget widget-post">
-                        <div class="widget-title">
-                            <h3>Trending Now</h3>
-                        </div>
-                        <div class="widget-body">
-
-                        </div>
-                    </div>
-                    <!-- End Trending Post -->
-
-                    <!-- Latest Post -->
-                    <div class="widget widget-latest-post">
-                        <div class="widget-title">
-                            <h3>Latest Post</h3>
-                        </div>
-                        <div class="widget-body">
-                            <div class="latest-post-aside media">
-                                <div class="lpa-left media-body">
-                                    <div class="lpa-title">
-                                        <h5><a href="#">Prevent 75% of visitors from google analytics</a></h5>
-                                    </div>
-                                    <div class="lpa-meta">
-                                        <a class="name" href="#">
-                                            Rachel Roth
-                                        </a>
-                                        <a class="date" href="#">
-                                            26 FEB 2020
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="lpa-right">
-                                    <a href="#">
-                                        <img src="https://www.bootdey.com/image/400x200/E6E6FA/000000" title="" alt="">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="latest-post-aside media">
-                                <div class="lpa-left media-body">
-                                    <div class="lpa-title">
-                                        <h5><a href="#">Prevent 75% of visitors from google analytics</a></h5>
-                                    </div>
-                                    <div class="lpa-meta">
-                                        <a class="name" href="#">
-                                            Rachel Roth
-                                        </a>
-                                        <a class="date" href="#">
-                                            26 FEB 2020
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="lpa-right">
-                                    <a href="#">
-                                        <img src="https://www.bootdey.com/image/400x200/FFA07A/000000" title="" alt="">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="latest-post-aside media">
-                                <div class="lpa-left media-body">
-                                    <div class="lpa-title">
-                                        <h5><a href="#">Prevent 75% of visitors from google analytics</a></h5>
-                                    </div>
-                                    <div class="lpa-meta">
-                                        <a class="name" href="#">
-                                            Rachel Roth
-                                        </a>
-                                        <a class="date" href="#">
-                                            26 FEB 2020
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="lpa-right">
-                                    <a href="#">
-                                        <img src="https://www.bootdey.com/image/400x200/FFF0F5/000000" title="" alt="">
-                                    </a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- End Latest Post -->
-
-                    <!-- widget Tags -->
-                    <div class="widget widget-tags">
-                        <div class="widget-title">
-                            <h3>Latest Tags</h3>
-                        </div>
-                        <div class="widget-body">
-                            <div class="nav tag-cloud">
-                                <a href="#">Design</a>
-                                <a href="#">Development</a>
-                                <a href="#">Travel</a>
-                                <a href="#">Web Design</a>
-                                <a href="#">Marketing</a>
-                                <a href="#">Research</a>
-                                <a href="#">Managment</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End widget Tags -->
-                </div>
             </div>
-        </div>
-    </section>
+          </div>
 
-    <!-- Footer Start -->
-    <footer>
-      <div class="row foot-row">
-        <div class="col-md-3 foot-sec">
-          <img
-            src="images/logo-white.png"
-            class="logo"
-            style="max-width: 150px"
-          />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            libero quis natus laboriosam expedita explicabo eligendi laborum
-            facere dignissimos!
-          </p>
-        </div>
-        <div class="col-md-3 foot-sec">
-          <h3>
-            Location
-            <div class="underline"><span></span></div>
-          </h3>
-          <p>
-            1J/9, Thamarikullam Street, Railway Feeder Road, Kottar, Nagercoil.
-            629002
-          </p>
-          <p>9487411824 9789503035 8148196685</p>
-        </div>
-        <div class="col-md-3 foot-sec">
-          <h3>
-            Links
-            <div class="underline"><span></span></div>
-          </h3>
-          <ul class="foot-list">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-md-3 foot-sec">
-          <h3>
-            Get in Touch
-            <div class="underline"><span></span></div>
-          </h3>
-          <div class="social-icons">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-whatsapp"></i>
-            <i class="fa-brands fa-instagram"></i>
+          <div class="col-lg-4 m-15px-tb blog-aside">
+            <!-- Author -->
+            <div class="widget widget-author">
+              <div class="widget-title">
+                <h3>Jaya Krishnan</h3>
+              </div>
+              <div class="widget-body">
+                <div class="media align-items-center">
+                  <div class="avatar">
+                    <img
+                      src="https://bootdey.com/img/Content/avatar/avatar6.png"
+                      title=""
+                      alt=""
+                    />
+                  </div>
+                  <div class="media-body">
+                    <!-- <h6>Jaya Krishnan</h6> -->
+                  </div>
+                </div>
+                <p>
+                  Customer Friendly and Also they have best quality mattress.
+                </p>
+              </div>
+            </div>
+            <!-- End Author -->
+
+            <!-- Trending Post -->
+            <div class="widget widget-post">
+              <div class="widget-title">
+                <h3>Trending Now</h3>
+              </div>
+              <div class="widget-body"></div>
+            </div>
+            <!-- End Trending Post -->
+
+            <!-- Latest Post -->
+            <div class="widget widget-latest-post">
+              <div class="widget-title">
+                <h3>Recent Post</h3>
+              </div>
+              <div class="widget-body">
+                <div class="latest-post-aside media">
+                  <div class="lpa-left media-body">
+                    <div class="lpa-title">
+                      <h5>
+                        <a href="#"
+                          >Sleep in comfort, wake up refreshed – Kumar
+                          Industries mattresses redefine rest.</a
+                        >
+                      </h5>
+                    </div>
+                    <!-- <div class="lpa-meta">
+                                        <a class="name" href="#">
+                                            Rachel Roth
+                                        </a>
+                                        <a class="date" href="#">
+                                            26 FEB 2020
+                                        </a>
+                                    </div> -->
+                  </div>
+                  <div class="lpa-right">
+                    <a href="#">
+                      <img
+                        src="images/service_image/blog3.jpg"
+                        title=""
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+
+                <div class="latest-post-aside media">
+                  <div class="lpa-left media-body">
+                    <div class="lpa-title">
+                      <h5>
+                        <a href="#"
+                          >Crafted for comfort, designed for dreams – experience
+                          the perfect mattress.</a
+                        >
+                      </h5>
+                    </div>
+                    <!-- <div class="lpa-meta">
+                                        <a class="name" href="#">
+                                            Rachel Roth
+                                        </a>
+                                        <a class="date" href="#">
+                                            26 FEB 2020
+                                        </a>
+                                    </div> -->
+                  </div>
+                  <div class="lpa-right">
+                    <a href="#">
+                      <img
+                        src="images/service_image/blog1.jpg"
+                        title=""
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+
+                <div class="latest-post-aside media">
+                  <div class="lpa-left media-body">
+                    <div class="lpa-title">
+                      <h5>
+                        <a href="#"
+                          >Quality sleep starts with the right mattress – trust
+                          Kumar Industries.</a
+                        >
+                      </h5>
+                    </div>
+                    <!-- <div class="lpa-meta">
+                                        <a class="name" href="#">
+                                            Rachel Roth
+                                        </a>
+                                        <a class="date" href="#">
+                                            26 FEB 2020
+                                        </a>
+                                    </div> -->
+                  </div>
+                  <div class="lpa-right">
+                    <a href="#">
+                      <img
+                        src="images/service_image/blog2.jpg"
+                        title=""
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Latest Post -->
+
+            <!-- widget Tags -->
+            <div class="widget widget-tags">
+              <div class="widget-title">
+                <h3>Latest Tags</h3>
+              </div>
+              <div class="widget-body">
+                <div class="nav tag-cloud">
+                  <a href="#">Billow</a>
+                  <a href="#">Bed</a>
+                  <a href="#">Mattress</a>
+                  <a href="#">Folding Bed</a>
+                  <a href="#">Floor Bed</a>
+                  <a href="#">Foam mattress</a>
+                  <a href="#">Ortho Mattress</a>
+                </div>
+              </div>
+            </div>
+            <!-- End widget Tags -->
           </div>
         </div>
       </div>
-      <hr />
-      <p class="copyright">
-        © 2025 Kumar Industies all Rights Reserved. Designed and Developed by
-        <a
-          href="https://feathersoftwares.com/"
-          target="_blank"
-          class="text-decoration-none text-white"
-          style="font-weight: bold"
-          >Feather Softwares</a
-        >
-      </p>
-    </footer>
+    </section>
+
+    <!-- Footer Start -->
+      <footer>
+      <div class="row foot-row">
+        <div class="col-md-3 foot-sec">
+         <img src="images/logo-white.png" class="logo" style="max-width: 150px;">
+         <p>Kumar Industries in Nagercoil offers premium mattresses, sofas, pillows, headbands, and more. We focus on blending comfort, durability, and style, using the latest technology to create innovative products.</p>
+        </div>
+        <div class="col-md-3 foot-sec">
+          <h3>Location <div class="underline"><span></span></div></h3>
+          <p>1J/9, Thamarikullam Street,
+            Railway Feeder Road,
+            Kottar,
+            Nagercoil.
+            629002</p>
+          <p>9487411824 9789503035
+            8148196685
+            </p>
+          
+        </div>
+        <div class="col-md-3 foot-sec">
+          <h3>Links <div class="underline"><span></span></div></h3>
+          <ul class="foot-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="manufacturing.html">Service</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+        <div class="col-md-3 foot-sec">
+          <h3>Get in Touch <div class="underline"><span></span></div></h3>
+          <div class="social-icons">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-whatsapp"></i>
+              <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <p class="copyright">© 2025 Kumar Industies all Rights Reserved. Designed and Developed by <a href="https://feathersoftwares.com/" target="_blank" class="text-decoration-none text-white" style="font-weight: bold;">Feather Softwares</a></p>
+     </footer>
     <!-- Footer End -->
     <script>
       $(document).ready(function () {
