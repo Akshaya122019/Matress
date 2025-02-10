@@ -38,6 +38,8 @@
     <!-- Style -->
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/matress.css" rel="stylesheet" />
+    <!-- Animation -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
 
     <style>
       .blog-listing {
@@ -324,7 +326,7 @@
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg py-4 py-lg-0 shadow fixed-top">
+    <nav class="navbar navbar-expand-lg shadow fixed-top">
       <div class="container px-4">
         <img src="images/logo.png" class="nav-img" alt="logo" />
         <button
@@ -545,7 +547,7 @@
           <div class="col-lg-8 m-15px-tb">
             <div class="row">
               <div class="col-sm-6">
-                <div class="blog-grid">
+                <div class="blog-grid wow slideInLeft">
                   <div class="blog-img">
                     <!-- <div class="date">
                                         <span>04</span>
@@ -576,7 +578,7 @@
                 </div>
               </div>
               <div class="col-sm-6">
-                <div class="blog-grid">
+                <div class="blog-grid wow slideInLeft">
                   <div class="blog-img">
                     <!-- <div class="date">
                                         <span>04</span>
@@ -607,7 +609,7 @@
                 </div>
               </div>
               <div class="col-sm-6">
-                <div class="blog-grid">
+                <div class="blog-grid wow slideInLeft">
                   <div class="blog-img">
                     <!-- <div class="date">
                                         <span>04</span>
@@ -642,7 +644,7 @@
                 </div>
               </div>
               <div class="col-sm-6">
-                <div class="blog-grid">
+                <div class="blog-grid wow slideInLeft">
                   <div class="blog-img">
                     <!-- <div class="date">
                                         <span>04</span>
@@ -674,7 +676,7 @@
               </div>
 
               <div class="col-sm-6">
-                <div class="blog-grid">
+                <div class="blog-grid wow slideInLeft">
                   <div class="blog-img">
                     <!-- <div class="date">
                                         <span>04</span>
@@ -707,7 +709,7 @@
                 </div>
               </div>
               <div class="col-sm-6">
-                <div class="blog-grid">
+                <div class="blog-grid wow slideInLeft">
                   <div class="blog-img">
                     <!-- <div class="date">
                                         <span>04</span>
@@ -758,7 +760,7 @@
 
           <div class="col-lg-4 m-15px-tb blog-aside">
             <!-- Author -->
-            <div class="widget widget-author">
+            <div class="widget widget-author wow slideInRight">
               <div class="widget-title">
                 <h3>Jaya Krishnan</h3>
               </div>
@@ -783,7 +785,7 @@
             <!-- End Author -->
 
             <!-- Trending Post -->
-            <div class="widget widget-post">
+            <div class="widget widget-post wow slideInRight">
               <div class="widget-title">
                 <h3>Trending Now</h3>
               </div>
@@ -792,7 +794,7 @@
             <!-- End Trending Post -->
 
             <!-- Latest Post -->
-            <div class="widget widget-latest-post">
+            <div class="widget widget-latest-post wow slideInRight">
               <div class="widget-title">
                 <h3>Recent Post</h3>
               </div>
@@ -891,7 +893,7 @@
             <!-- End Latest Post -->
 
             <!-- widget Tags -->
-            <div class="widget widget-tags">
+            <div class="widget widget-tags wow slideInRight">
               <div class="widget-title">
                 <h3>Latest Tags</h3>
               </div>
@@ -914,7 +916,7 @@
     </section>
 
     <!-- Footer Start -->
-      <footer>
+      <footer class="fadeInUp">
       <div class="row foot-row">
         <div class="col-md-3 foot-sec">
          <img src="images/logo-white.png" class="logo" style="max-width: 150px;">
@@ -959,5 +961,9 @@
         $(".carousel").carousel();
       });
     </script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script>
+      new WOW().init();
+      </script>
   </body>
 </html>

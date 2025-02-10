@@ -12,9 +12,11 @@
     <!-- Style -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/matress.css" rel="stylesheet">
+    <!-- Animation -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg py-4 py-lg-0 shadow fixed-top">
+<nav class="navbar navbar-expand-lg shadow fixed-top">
         <div class="container px-4">
             <img src="images/logo.png" class="nav-img" alt="logo">
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#top-navbar" aria-controls="top-navbar">
@@ -110,7 +112,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-4">
-                <div class="list-group">
+                <div class="list-group wow slideInLeft">
                     <a href="premium-soft.html" class="list-group-item list-group-item-action" aria-current="true">
                       Premium Soft Matresses</a>
                     <a href="super-soft.html" class="list-group-item list-group-item-action active">Super Soft Matress</a>
@@ -125,7 +127,7 @@
             </div>
             <div class="col-md-8">
                 <div class="container">
-                    <div class="mat-view-image">
+                    <div class="mat-view-image wow fadeInUp">
                         <img src="images/view/super-soft-view.jpg" alt="Mattress Image" class="img-fluid">
                         <div class="content-overlay mat-view-overlay">
                             <h3>Discover the Ultimate Softness: Luxurious Mattresses for Serene Sleep</h3>
@@ -148,10 +150,8 @@
  </section>
  <!-- Mattresses View End -->
 
-
-
 <!-- Footer Start -->
-   <footer>
+   <footer class="wow fadeInUp">
       <div class="row foot-row">
         <div class="col-md-3 foot-sec">
          <img src="images/logo-white.png" class="logo" style="max-width: 150px;">
@@ -191,5 +191,10 @@
       <p class="copyright">© 2025 Kumar Industies all Rights Reserved. Designed and Developed by <a href="https://feathersoftwares.com/" target="_blank" class="text-decoration-none text-white" style="font-weight: bold;">Feather Softwares</a></p>
      </footer>
 <!-- Footer End -->
+
+<script src="lib/wow/wow.min.js"></script>
+    <script>
+      new WOW().init();
+      </script>
 </body>
 </html>

@@ -51,11 +51,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
       rel="stylesheet"
     />
-    <!-- <style>
-  .carousel-item {
-      transition: transform 1.5s ease, opacity 1.5s ease; /* Smooth transition for sliding and fading */
-    }
-</style> -->
+    <!-- Animation -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
     <style>
       svg {
         color: #daaf39; /* Change the color of the SVG */
@@ -84,213 +82,87 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg py-4 py-lg-0 shadow fixed-top">
+    <nav class="navbar navbar-expand-lg shadow fixed-top">
       <div class="container px-4">
-        <img src="images/logo.png" class="nav-img" alt="logo" />
-        <button
-          class="navbar-toggler border-0"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#top-navbar"
-          aria-controls="top-navbar"
-        >
-          <i class="fa-solid fa-bars"></i>
-        </button>
-        <div
-          class="offcanvas offcanvas-end"
-          tabindex="-1"
-          id="top-navbar"
-          aria-labelledby="top-navbarLabel"
-        >
-          <!-- Navigation bar Content -->
-          <button
-            class="navbar-toggler border-0"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#top-navbar"
-            aria-controls="top-navbar"
-          >
-            <div class="d-flex justify-content-between p-3">
-              <img src="images/logo.png" class="nav-img" alt="logo" />
-              <i class="fa-solid fa-xmark"></i>
-            </div>
-          </button>
-          <ul class="navbar-nav ms-lg-auto p-4 p-lg-0">
-            <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
-              <a class="nav-link" aria-current="page" href="about.html"
-                >About</a
-              >
-            </li>
-            <li class="nav-item px-3 px-lg-0 py-1 py-lg-4 dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Mattress
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item" href="mattress.html">Mattress</a>
+          <img src="images/logo.png" class="nav-img" alt="logo">
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#top-navbar" aria-controls="top-navbar">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="top-navbar" aria-labelledby="top-navbarLabel">
+              <!-- Navigation bar Content -->
+              <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#top-navbar" aria-controls="top-navbar">
+                  <div class="d-flex justify-content-between p-3">
+                      <img src="images/logo.png" class="nav-img" alt="logo">
+                      <i class="fa-solid fa-xmark"></i>
+                  </div> 
+                </button>
+                <ul class="navbar-nav ms-lg-auto p-4 p-lg-0">
+                  <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+                      <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+                      <a class="nav-link" aria-current="page" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item px-3 px-lg-0 py-1 py-lg-4 dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Mattress
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="mattress.html">Mattress</a></li>
+                          <li><a class="dropdown-item" href="premium-soft.html">Premium Soft Mattress</a></li>
+                          <li><a class="dropdown-item" href="super-soft.html">Super Soft Mattress</a></li>
+                          <li><a class="dropdown-item" href="pocketed.html">Pocketed Spring Mattress</a></li>
+                          <li><a class="dropdown-item" href="bonal-spring.html">Bonel Spring Mattress</a></li>
+                          <li><a class="dropdown-item" href="nano-spring.html">Nano Spring Mattress</a></li>
+                          <li><a class="dropdown-item" href="foam.html">Foam Mattress </a></li>
+                          <li><a class="dropdown-item" href="coir-foam.html">Coir with Foam Mattress</a></li>
+                          <li><a class="dropdown-item" href="ortho.html">Ortho Mattress</a></li>
+                          <li><a class="dropdown-item" href="latex.html">Latex Mattress</a></li>
+                        </ul>
+                  </li>
+                  <!-- <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+                      <a class="nav-link" aria-current="page" href="#">Services</a>
+                  </li> -->
+                  <li class="nav-item px-3 px-lg-0 py-1 py-lg-4 dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="manufacturing.html">Customized Manufacturing</a></li>
+                          <li><a class="dropdown-item" href="customized_bed.html">Customized Bed</a></li>
+                          <li><a class="dropdown-item" href="customized_size.html">Customized Size</a></li>
+                          <li><a class="dropdown-item" href="customized_color.html">Customized Colour</a></li>
+                          <li><a class="dropdown-item" href="customized_cover.html">Customized Bed Covers</a></li>
+                        </ul>
+                  </li>
+                  <li class="nav-item px-3 px-lg-0 py-1 py-lg-4 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Products
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="all-products.html">All Products</a></li>
+                        <li><a class="dropdown-item" href="beds.html">Beds</a></li>
+                        <li><a class="dropdown-item" href="folding-beds.html">Folding Beds</a></li>
+                        <li><a class="dropdown-item" href="floor-bed.html">Floor Bed</a></li>
+                        <li><a class="dropdown-item" href="sofa-come.html">Sofa come Bed</a></li>
+                        <li><a class="dropdown-item" href="headboards.html">Headboards</a></li>
+                        <li><a class="dropdown-item" href="sofa-mould.html">Sofa Mould Cushion</a></li>
+                        <li><a class="dropdown-item" href="pillows.html">Pillows</a></li>
+                        <li><a class="dropdown-item" href="memory-foam.html">Memory Foam Pillows</a></li>
+                        <li><a class="dropdown-item" href="country-neck.html">Country Neck Pillow</a></li>
+                        <li><a class="dropdown-item" href="recron.html">Recron Pillows</a></li>
+                      </ul>
                 </li>
-                <li>
-                  <a class="dropdown-item" href="premium-soft.html"
-                    >Premium Soft Mattress</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="super-soft.html"
-                    >Super Soft Mattress</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="pocketed.html"
-                    >Pocketed Spring Mattress</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="bonal-spring.html"
-                    >Bonel Spring Mattress</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="nano-spring.html"
-                    >Nano Spring Mattress</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="foam.html">Foam Mattress </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="coir-foam.html"
-                    >Coir with Foam Mattress</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="ortho.html">Ortho Mattress</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="latex.html">Latex Mattress</a>
-                </li>
-              </ul>
-            </li>
-            <!-- <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
-                        <a class="nav-link" aria-current="page" href="#">Services</a>
-                    </li> -->
-            <li class="nav-item px-3 px-lg-0 py-1 py-lg-4 dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Services
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item" href="manufacturing.html"
-                    >Customized Manufacturing</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="customized_bed.html"
-                    >Customized Bed</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="customized_size.html"
-                    >Customized Size</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="customized_color.html"
-                    >Customized Colour</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="customized_cover.html"
-                    >Customized Bed Covers</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item px-3 px-lg-0 py-1 py-lg-4 dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Products
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item" href="all-products.html"
-                    >All Products</a
-                  >
-                </li>
-                <li><a class="dropdown-item" href="beds.html">Beds</a></li>
-                <li>
-                  <a class="dropdown-item" href="folding-beds.html"
-                    >Folding Beds</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="floor-bed.html">Floor Bed</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="sofa-come.html"
-                    >Sofa come Bed</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="headboards.html">Headboards</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="sofa-mould.html"
-                    >Sofa Mould Cushion</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="pillows.html">Pillows</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="memory-foam.html"
-                    >Memory Foam Pillows</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="country-neck.html"
-                    >Country Neck Pillow</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="recron.html">Recron Pillows</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
-              <a class="nav-link" aria-current="page" href="blog.html">Blog</a>
-            </li>
-            <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
-              <a class="nav-link" aria-current="page" href="contact.html"
-                >Contact</a
-              >
-            </li>
-          </ul>
-        </div>
+                  <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+                      <a class="nav-link" aria-current="page" href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+                      <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
       </div>
-    </nav>
+  </nav>
     <!-- Home Start -->
 
     <!-- Home Page Start -->
@@ -307,19 +179,20 @@
     <section class="py-3 py-md-5 py-xl-8">
       <div class="container">
         <div class="row justify-content-md-center">
-          <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-            <h2 class="mb-4 display-5 text-center">Contact Us</h2>
+          <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6 wow fadeInUp">
+            <h2 class="display-5 text-center">Contact Us</h2>
+            <center><img src="images/divider.png" class="img-fluid mb-2" style="width: 50%;" /></center>
             <p class="text-secondary mb-2 text-center lead fs-4">
               From inquiry to delivery, we’re with you every step of the way.
               Let's connect!
             </p>
-            <img src="images/service_image/line4.png" class="img-fluid mb-2" />
+            
             <!-- <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle" /> -->
           </div>
         </div>
       </div>
 
-      <div class="container">
+      <div class="container wow fadeInUp">
         <div class="row">
           <div class="col-12">
             <div
@@ -588,11 +461,10 @@
         </div>
       </div>
     </section>
-
     <!--endform-->
 
     <!-- Footer Start -->
-       <footer>
+       <footer class="wow fadeInUp">
       <div class="row foot-row">
         <div class="col-md-3 foot-sec">
          <img src="images/logo-white.png" class="logo" style="max-width: 150px;">
@@ -637,5 +509,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
     <!-- JS ADD -->
     <script src="js/script.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script>
+      new WOW().init();
+      </script>
   </body>
 </html>
