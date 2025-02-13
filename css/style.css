@@ -15,7 +15,7 @@ html {
     width: 100%;
 }
 .navbar{
-  background: linear-gradient(45deg, #f7da8c 5%, #d7a519 95%);
+  background: linear-gradient(45deg, rgb(233, 231, 231) 3%, rgb(95, 92, 92) 95%);
 }
 .nav-link{
     font-weight: 600;
@@ -37,6 +37,9 @@ html {
 }
 .dropdown-item{
     border-bottom: 1px solid rgb(243, 241, 241);
+}
+.nav-link{
+    color: white !important;
 }
 @media screen and (min-width:992px) {
     .dropdown>.dropdown-menu{
