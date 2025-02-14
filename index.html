@@ -28,92 +28,91 @@
 </head>
 <body>
 
-
-    <nav class="navbar navbar-expand-lg shadow fixed-top">
-        <div class="container px-4">
-            <img src="images/logo.png" class="nav-img" alt="logo">
+<nav class="navbar navbar-expand-lg shadow fixed-top">
+    <div class="container px-4">
+        <img src="images/logo.png" class="nav-img" alt="logo">
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#top-navbar" aria-controls="top-navbar">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="top-navbar" aria-labelledby="top-navbarLabel">
+            <!-- Navigation bar Content -->
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#top-navbar" aria-controls="top-navbar">
-                <i class="fa-solid fa-bars"></i>
+                <div class="d-flex justify-content-between p-3">
+                    <img src="images/logo.png" class="nav-img" alt="logo">
+                    <i class="fa-solid fa-xmark"></i>
+                </div> 
               </button>
-              <div class="offcanvas offcanvas-end" tabindex="-1" id="top-navbar" aria-labelledby="top-navbarLabel">
-                <!-- Navigation bar Content -->
-                <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#top-navbar" aria-controls="top-navbar">
-                    <div class="d-flex justify-content-between p-3">
-                        <img src="images/logo.png" class="nav-img" alt="logo">
-                        <i class="fa-solid fa-xmark"></i>
-                    </div> 
-                  </button>
-                  <ul class="navbar-nav ms-lg-auto p-4 p-lg-0">
-                    <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
-                        <a class="nav-link" aria-current="page" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item px-3 px-lg-0 py-1 py-lg-4 dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Mattress
-                          </a>
-                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="mattress.html">Mattress</a></li>
-                            <li><a class="dropdown-item" href="premium-soft.html">Premium Soft Mattress</a></li>
-                            <li><a class="dropdown-item" href="super-soft.html">Super Soft Mattress</a></li>
-                            <li><a class="dropdown-item" href="pocketed.html">Pocketed Spring Mattress</a></li>
-                            <li><a class="dropdown-item" href="bonal-spring.html">Bonel Spring Mattress</a></li>
-                            <li><a class="dropdown-item" href="nano-spring.html">Nano Spring Mattress</a></li>
-                            <li><a class="dropdown-item" href="foam.html">Foam Mattress </a></li>
-                            <li><a class="dropdown-item" href="coir-foam.html">Coir with Foam Mattress</a></li>
-                            <li><a class="dropdown-item" href="ortho.html">Ortho Mattress</a></li>
-                            <li><a class="dropdown-item" href="latex.html">Latex Mattress</a></li>
-                          </ul>
-                    </li>
-                    <!-- <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
-                        <a class="nav-link" aria-current="page" href="#">Services</a>
-                    </li> -->
-                    <li class="nav-item px-3 px-lg-0 py-1 py-lg-4 dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Services
-                          </a>
-                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="manufacturing.html">Customized Manufacturing</a></li>
-                            <li><a class="dropdown-item" href="customized_bed.html">Customized Bed</a></li>
-                            <li><a class="dropdown-item" href="customized_size.html">Customized Size</a></li>
-                            <li><a class="dropdown-item" href="customized_color.html">Customized Colour</a></li>
-                            <li><a class="dropdown-item" href="customized_cover.html">Customized Bed Covers</a></li>
-                          </ul>
-                    </li>
-                    <li class="nav-item px-3 px-lg-0 py-1 py-lg-4 dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Products
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="all-products.html">All Products</a></li>
-                          <li><a class="dropdown-item" href="beds.html">Beds</a></li>
-                          <li><a class="dropdown-item" href="folding-beds.html">Folding Beds</a></li>
-                          <li><a class="dropdown-item" href="floor-bed.html">Floor Bed</a></li>
-                          <li><a class="dropdown-item" href="sofa-come.html">Sofa come Bed</a></li>
-                          <li><a class="dropdown-item" href="headboards.html">Headboards</a></li>
-                          <li><a class="dropdown-item" href="sofa-mould.html">Sofa Mould Cushion</a></li>
-                          <li><a class="dropdown-item" href="pillows.html">Pillows</a></li>
-                          <li><a class="dropdown-item" href="memory-foam.html">Memory Foam Pillows</a></li>
-                          <li><a class="dropdown-item" href="country-neck.html">Country Neck Pillow</a></li>
-                          <li><a class="dropdown-item" href="recron.html">Recron Pillows</a></li>
-                        </ul>
-                  </li>
-                    <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
-                        <a class="nav-link" aria-current="page" href="blog.html">Blog</a>
-                    </li>
-                    <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
-                        <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
-                    </li>
-                  </ul>
-                </div>
-        </div>
-    </nav>
-    <!-- Home Start -->
+              <ul class="navbar-nav ms-lg-auto p-4 p-lg-0">
+                <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+                    <a class="nav-link" aria-current="page" href="about.html">About</a>
+                </li>
+                <li class="nav-item px-3 px-lg-0 py-1 py-lg-4 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Mattress
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="mattress.html">Mattress</a></li>
+                        <li><a class="dropdown-item" href="premium-soft.html">Premium Soft Mattress</a></li>
+                        <li><a class="dropdown-item" href="super-soft.html">Super Soft Mattress</a></li>
+                        <li><a class="dropdown-item" href="pocketed.html">Pocketed Spring Mattress</a></li>
+                        <li><a class="dropdown-item" href="bonal-spring.html">Bonel Spring Mattress</a></li>
+                        <li><a class="dropdown-item" href="nano-spring.html">Nano Spring Mattress</a></li>
+                        <li><a class="dropdown-item" href="foam.html">Foam Mattress </a></li>
+                        <li><a class="dropdown-item" href="coir-foam.html">Coir with Foam Mattress</a></li>
+                        <li><a class="dropdown-item" href="ortho.html">Ortho Mattress</a></li>
+                        <li><a class="dropdown-item" href="latex.html">Latex Mattress</a></li>
+                      </ul>
+                </li>
+                <!-- <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+                    <a class="nav-link" aria-current="page" href="#">Services</a>
+                </li> -->
+                <li class="nav-item px-3 px-lg-0 py-1 py-lg-4 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="manufacturing.html">Customized Manufacturing</a></li>
+                        <li><a class="dropdown-item" href="customized_bed.html">Customized Bed</a></li>
+                        <li><a class="dropdown-item" href="customized_size.html">Customized Size</a></li>
+                        <li><a class="dropdown-item" href="customized_color.html">Customized Colour</a></li>
+                        <li><a class="dropdown-item" href="customized_cover.html">Customized Bed Covers</a></li>
+                      </ul>
+                </li>
+                <li class="nav-item px-3 px-lg-0 py-1 py-lg-4 dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Products
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="all-products.html">All Products</a></li>
+                      <li><a class="dropdown-item" href="beds.html">Beds</a></li>
+                      <li><a class="dropdown-item" href="folding-beds.html">Folding Beds</a></li>
+                      <li><a class="dropdown-item" href="floor-bed.html">Floor Bed</a></li>
+                      <li><a class="dropdown-item" href="sofa-come.html">Sofa come Bed</a></li>
+                      <li><a class="dropdown-item" href="headboards.html">Headboards</a></li>
+                      <li><a class="dropdown-item" href="sofa-mould.html">Sofa Mould Cushion</a></li>
+                      <li><a class="dropdown-item" href="pillows.html">Pillows</a></li>
+                      <li><a class="dropdown-item" href="memory-foam.html">Memory Foam Pillows</a></li>
+                      <li><a class="dropdown-item" href="country-neck.html">Country Neck Pillow</a></li>
+                      <li><a class="dropdown-item" href="recron.html">Recron Pillows</a></li>
+                    </ul>
+              </li>
+                <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+                    <a class="nav-link" aria-current="page" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+                    <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+    </div>
+</nav>
+<!-- Home Start -->
 
-     <!-- home content start-->
-    <!-- Home Start -->
+<!-- home content start-->
+<!-- Home Start -->
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -125,7 +124,7 @@
       <div class="banner" style="background-image: url(images/carousel-1.jpg);">
         <div class="carousel-caption text-dark">
           <h2>Orthopedic Backpain<br> Relief Mattress</h2>
-          <h3 class="pb-3">Choosing the right mattress is key to restful, restorative sleep.</h3>
+          <h3 class="pb-3">Invest in your spine, invest in your sleep: Experience the orthopedic difference."</h3>
           <p><a href="contact.html">Contact Us</a></p>
         </div>
       </div>
@@ -134,7 +133,7 @@
       <div class="banner" style="background-image: url(images/carousel-2.jpg);">
         <div class="carousel-caption text-dark">
           <h2>Luxury Sleep <br>Affordable Comfort</h2>
-          <h3>Indulge in luxury sleep at a price that rejuvenates you.</h3>
+          <h3>Experience 5-star comfort on a budget-friendly mattress</h3>
         </div>
       </div>
     </div>
@@ -142,7 +141,7 @@
       <div class="banner" style="background-image: url(images/carousel-3.jpg);">
         <div class="carousel-caption text-dark">
           <h2>Your Best Night’s <br>Sleep Starts Here!</h2>
-          <h3>Find the mattress that fits your sleep style and transforms your nightly routine.</h3>
+          <h3>Sink into slumber, wake up to bliss: Your best night starts here</h3>
         </div>
       </div>
     </div>
@@ -150,469 +149,466 @@
 </div>
 <!-- Home End -->
 
-
-
-     <!-- About Start -->
-      <section class="about">
-      <div class="container mt-5">
-        <div class="container-fluid">
-            <div class="about-head">
-                <h1 class="text-center">About Us</h1>
-                <center><img src="images/divider.png" class="img-fluid mb-2" style="width: 50%;" /></center>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="about-con py-5 px-3 wow slideInLeft">
-                        <p>We craft comfort with a vision to redefine sleep, one mattress at a time. With a passion for innovation and a commitment to quality, we design mattresses that promise restful nights and rejuvenated mornings. By blending cutting-edge technology with luxurious, eco-friendly materials, we ensure the perfect sleep experience for every individual, delivering unparalleled comfort and support to our customers worldwide.</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="about-image px-3 wow slideInRight">
-                        <img src="images/about-us.jpg" alt="About Us" class="img-fluid" width="100%" height="100%">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-      </div>
-    </section>
-      <!-- About End -->
-
-
-     <!-- Service Start -->
-     <section class="py-5">
-      <div class="container text-center">
-          <!-- Section Title -->
-          <h2 class="section-title">WHAT'S NEW</h2>
+<!-- About Start -->
+<section class="about">
+<div class="container mt-5">
+  <div class="container-fluid">
+      <div class="about-head">
+          <h1 class="text-center">About Us</h1>
           <center><img src="images/divider.png" class="img-fluid mb-2" style="width: 50%;" /></center>
-          <p class="section-subtitle">
-            Discover the latest additions to our collection! From cozy cushions to premium mattresses, explore what's trending and find your perfect match..
-          </p>
-
-          <!-- Layout with 2 rows on each side and 1 center column -->
-          <div class="row g-4 wow fadeInUp">
-              <!-- Left Column -->
-              <div class="col-md-4">
-                  <div class="product-card text-center mb-4">
-                      <img src="images/ve.jpg" alt="Velvet Cushion" class="img-fluid mb-3">
-                      <h5>VELVET CUSHION</h5>
-                      <p>Add a touch of elegance to your home with our premium velvet cushions—designed for comfort and style.</p>
-                  </div>
-                  <div class="product-card text-center">
-                      <img src="images/spring.jpg" alt="Spring Mattress" class="img-fluid mb-3">
-                      <h5>SPRING MATTRESS</h5>
-                      <p>Sleep better with our durable spring mattresses, offering optimal support and long-lasting comfort.</p>
-                  </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6">
+              <div class="about-con py-5 px-3 wow slideInLeft">
+                  <p>We craft comfort with a vision to redefine sleep, one mattress at a time. With a passion for innovation and a commitment to quality, we design mattresses that promise restful nights and rejuvenated mornings. By blending cutting-edge technology with luxurious, eco-friendly materials, we ensure the perfect sleep experience for every individual, delivering unparalleled comfort and support to our customers worldwide.</p>
               </div>
+          </div>
+          <div class="col-md-6">
+              <div class="about-image px-3 wow slideInRight">
+                  <img src="images/about-us.jpg" alt="About Us" class="img-fluid" width="100%" height="100%">
 
-              <!-- Center Column -->
-              <div class="col-md-4 d-flex flex-column align-items-center justify-content-center">
-                  <div class="product-card text-center">
-                      <img src="images/about-1.jpg" alt="Pillows" class="img-fluid mb-3" style="width: 100%;height: 100%;">
-                  </div>
               </div>
-
-              <!-- Right Column -->
-              <div class="col-md-4">
-                  <div class="product-card text-center mb-4">
-                      <img src="images/softt.jpg" alt="Single Soft Mattress" class="img-fluid mb-3">
-                      <h5>SINGLE SOFT MATTRESS</h5>
-                      <p>Experience unmatched comfort with our single soft mattresses—crafted to provide a restful and rejuvenating sleep.</p>
-                  </div>
-                  <div class="product-card text-center">
-                      <img src="images/window.jpg" alt="Window Blanket" class="img-fluid mb-3">
-                      <h5>WINDOW BLANKET</h5>
-                      <p>Transform your windows with our beautifully designed blankets that combine functionality and aesthetics.</p>
-                  </div>
-              </div>                                                                                                                                                                           
           </div>
       </div>
-  </section>
-      <!-- Service End -->
+  </div>
+</div>
+</section>
+<!-- About End -->
 
 
+<!-- Service Start -->
+<section class="py-5">
+<div class="container text-center">
+    <!-- Section Title -->
+    <h2 class="section-title">WHAT'S NEW</h2>
+    <center><img src="images/divider.png" class="img-fluid mb-2" style="width: 50%;" /></center>
+    <p class="section-subtitle">
+      Discover the latest additions to our collection! From cozy cushions to premium mattresses, explore what's trending and find your perfect match..
+    </p>
 
-      <!-- Projects Starts -->
-      <section class="count_new">
-        <div class="container-fluid py-5 d-flex justify-content-center">
-          <div class="row gy-4 w-100 justify-content-center">
-            <!-- Counter 1 -->
-            <div class="col-12 col-md-4 d-flex justify-content-center">
-              <div class="counter-wrapper text-center">
-                <!-- <span class="counter-icon">👨‍👩‍👧‍👧</span> -->
-                <div class="counter-info">
-                  <h1 class="counter" data-count="35">0</h1>
-                  <p>Years of Experience</p>
-                </div>
-              </div>
+    <!-- Layout with 2 rows on each side and 1 center column -->
+    <div class="row g-4 wow fadeInUp">
+        <!-- Left Column -->
+        <div class="col-md-4">
+            <div class="product-card text-center mb-4">
+                <img src="images/ve.jpg" alt="Velvet Cushion" class="img-fluid mb-3">
+                <h5>VELVET CUSHION</h5>
+                <p>Add a touch of elegance to your home with our premium velvet cushions—designed for comfort and style.</p>
             </div>
-            <!-- Counter 2 -->
-            <div class="col-12 col-md-4 d-flex justify-content-center">
-              <div class="counter-wrapper text-center">
-                <!-- <span class="counter-icon">💼</span> -->
-                <div class="counter-info">
-                  <h1 class="counter" data-count="10000">0</h1>
-                  <p>Total Projects</p>
-                </div>
-              </div>
+            <div class="product-card text-center">
+                <img src="images/spring.jpg" alt="Spring Mattress" class="img-fluid mb-3">
+                <h5>SPRING MATTRESS</h5>
+                <p>Sleep better with our durable spring mattresses, offering optimal support and long-lasting comfort.</p>
             </div>
-            <!-- Counter 3 -->
-            <div class="col-12 col-md-4 d-flex justify-content-center">
-              <div class="counter-wrapper text-center">
-                <!-- <span class="counter-icon">👨‍👧‍👧</span> -->
-                <div class="counter-info">
-                    <h1 class="counter" data-count="5000">0</h1>
-                    <p>Happy Clients</p>
-                </div>
-              </div>
-            </div>
-          </div> 
         </div>
-      </section>
-       <!-- Projects End -->
+
+        <!-- Center Column -->
+        <div class="col-md-4 d-flex flex-column align-items-center justify-content-center">
+            <div class="product-card text-center">
+                <img src="images/about-1.jpg" alt="Pillows" class="img-fluid mb-3" style="width: 100%;height: 100%;">
+            </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="col-md-4">
+            <div class="product-card text-center mb-4">
+                <img src="images/softt.jpg" alt="Single Soft Mattress" class="img-fluid mb-3">
+                <h5>SINGLE SOFT MATTRESS</h5>
+                <p>Experience unmatched comfort with our single soft mattresses—crafted to provide a restful and rejuvenating sleep.</p>
+            </div>
+            <div class="product-card text-center">
+                <img src="images/window.jpg" alt="Window Blanket" class="img-fluid mb-3">
+                <h5>WINDOW BLANKET</h5>
+                <p>Transform your windows with our beautifully designed blankets that combine functionality and aesthetics.</p>
+            </div>
+        </div>                                                                                                                                                                           
+    </div>
+</div>
+</section>
+<!-- Service End -->
 
 
-       <!-- Gallery Starts --> 
-       <div class="container my-5 wow fadeInUp">
-        <h2 class="section-title text-center my-4">OUR PROJECTS</h2>
-        <center><img src="images/divider.png" class="img-fluid mb-2" style="width: 50%;" /></center>
-        <div class="row">
-          <div class="owl-carousel owl-theme">
-            <!-- Card 1 -->
-            <div class="card">
-              <div class="card-body image-container">
-                <a href="images/gallery/mattress.jpg" data-lightbox="gallery" data-title="Soft Mattress">
-                  <img src="images/gallery/mattress.jpg" alt="Layer 1" class="card-img-top" height="200px">
-                </a>
-                <div class="overlay">
-                  <a href="images/gallery/mattress.jpg" data-lightbox="gallery" class="icon" data-title="Soft Mattress">
-                    <i class="bi bi-eye"></i>
-                  </a>
-                  <a href="#" class="icon">
-                    <i class="bi bi-search"></i>
-                  </a>
-                </div>
-                <hr>
-                <h4>Soft Mattress</h4>
-              </div>
-            </div>
-  
-            <!-- Card 2 -->
-            <div class="card">
-              <div class="card-body image-container">
-                <a href="images/gallery/spring-mattress.jpg" data-lightbox="gallery" data-title="Spring Mattress">
-                  <img src="images/gallery/spring-mattress.jpg" alt="Layer 2" class="card-img-top" height="200px">
-                </a>
-                <div class="overlay">
-                  <a href="images/gallery/spring-mattress.jpg" data-lightbox="gallery" class="icon" data-title="Spring Mattress">
-                    <i class="bi bi-eye"></i>
-                  </a>
-                  <a href="#" class="icon">
-                    <i class="bi bi-search"></i>
-                  </a>
-                </div>
-                <hr>
-                <h4>Spring Mattress</h4>
-              </div>
-            </div>
-            <!-- Card 3 -->
-            <div class="card">
-              <div class="card-body image-container">
-                <a href="images/gallery/ortho.jpg" data-lightbox="gallery" data-title="Ortho Mattress">
-                  <img src="images/gallery/ortho.jpg" alt="Layer 2" class="card-img-top" height="200px">
-                </a>
-                <div class="overlay">
-                  <a href="images/gallery/ortho.jpg" data-lightbox="gallery" class="icon" data-title="Ortho Mattress">
-                    <i class="bi bi-eye"></i>
-                  </a>
-                  <a href="#" class="icon">
-                    <i class="bi bi-search"></i>
-                  </a>
-                </div>
-                <hr>
-                <h4>Ortho Mattress</h4>
-              </div>
-            </div>
-            <!-- Card 4 -->
-            <div class="card">
-              <div class="card-body image-container">
-                <a href="images/gallery/duvet.jpg" data-lightbox="gallery" data-title="Duvet">
-                  <img src="images/gallery/duvet.jpg" alt="Layer 2" class="card-img-top" height="200px">
-                </a>
-                <div class="overlay">
-                  <a href="images/gallery/duvet.jpg" data-lightbox="gallery" class="icon" data-title="Duvet">
-                    <i class="bi bi-eye"></i>
-                  </a>
-                  <a href="#" class="icon">
-                    <i class="bi bi-search"></i>
-                  </a>
-                </div>
-                <hr>
-                <h4>Duvet</h4>
-              </div>
-            </div>
-            <!-- Card 5 -->
-            <div class="card">
-              <div class="card-body image-container">
-                <a href="images/gallery/fitted-bedcovers.jpg" data-lightbox="gallery" data-title="Fitted Bed Covers">
-                  <img src="images/gallery/fitted-bedcovers.jpg" alt="Layer 2" class="card-img-top" height="200px">
-                </a>
-                <div class="overlay">
-                  <a href="images/gallery/fitted-bedcovers.jpg" data-lightbox="gallery" class="icon" data-title="Fitted Bed Covers">
-                    <i class="bi bi-eye"></i>
-                  </a>
-                  <a href="#" class="icon">
-                    <i class="bi bi-search"></i>
-                  </a>
-                </div>
-                <hr>
-                <h4>Fitted Bed Covers</h4>
-              </div>
-            </div>
-            <!-- Card 6 -->
-            <div class="card">
-              <div class="card-body image-container">
-                <a href="images/gallery/recron-pillows.jpg" data-lightbox="gallery" data-title="Recorn Pillows">
-                  <img src="images/gallery/recron-pillows.jpg" alt="Layer 2" class="card-img-top" height="200px">
-                </a>
-                <div class="overlay">
-                  <a href="images/gallery/recron-pillows.jpg" data-lightbox="gallery" class="icon" data-title="Recorn Pillows">
-                    <i class="bi bi-eye"></i>
-                  </a>
-                  <a href="#" class="icon">
-                    <i class="bi bi-search"></i>
-                  </a>
-                </div>
-                <hr>
-                <h4>Recorn Pillows</h4>
-              </div>
-            </div>
-            <!-- Card 7 -->
-            <div class="card">
-              <div class="card-body image-container">
-                <a href="images/gallery/neck-pillow.jpg" data-lightbox="gallery" data-title="Neck Pillows">
-                  <img src="images/gallery/neck-pillow.jpg" alt="Layer 2" class="card-img-top" height="200px">
-                </a>
-                <div class="overlay">
-                  <a href="images/gallery/neck-pillow.jpg" data-lightbox="gallery" class="icon" data-title="Neck Pillows">
-                    <i class="bi bi-eye"></i>
-                  </a>
-                  <a href="#" class="icon">
-                    <i class="bi bi-search"></i>
-                  </a>
-                </div>
-                <hr>
-                <h4>Neck Pillows</h4>
-              </div>
-            </div>
-            <!-- Card 8 -->
-            <div class="card">
-              <div class="card-body image-container">
-                <a href="images/gallery/memory-pillows.jpg" data-lightbox="gallery" data-title="Memory Pillows">
-                  <img src="images/gallery/memory-pillows.jpg" alt="Layer 2" class="card-img-top" height="200px">
-                </a>
-                <div class="overlay">
-                  <a href="images/gallery/memory-pillows.jpg" data-lightbox="gallery" class="icon" data-title="Memory Pillows">
-                    <i class="bi bi-eye"></i>
-                  </a>
-                  <a href="#" class="icon">
-                    <i class="bi bi-search"></i>
-                  </a>
-                </div>
-                <hr>
-                <h4>Memory Pillows</h4>
-              </div>
-            </div>
-             <!-- Card 9 -->
-             <div class="card">
-              <div class="card-body image-container">
-                <a href="images/gallery/comforter.jpg" data-lightbox="gallery" data-title="Comforter">
-                  <img src="images/gallery/comforter.jpg" alt="Layer 2" class="card-img-top" height="200px">
-                </a>
-                <div class="overlay">
-                  <a href="images/gallery/comforter.jpg" data-lightbox="gallery" class="icon" data-title="Comforter">
-                    <i class="bi bi-eye"></i>
-                  </a>
-                  <a href="#" class="icon">
-                    <i class="bi bi-search"></i>
-                  </a>
-                </div>
-                <hr>
-                <h4>Comforter</h4>
-              </div>
-            </div>
-            <!-- Card 10 -->
-            <div class="card">
-              <div class="card-body image-container">
-                <a href="images/gallery/latex-mattress.jpg" data-lightbox="gallery" data-title="Latex Mattress">
-                  <img src="images/gallery/latex-mattress.jpg" alt="Layer 2" class="card-img-top" height="200px">
-                </a>
-                <div class="overlay">
-                  <a href="images/gallery/latex-mattress.jpg" data-lightbox="gallery" class="icon" data-title="Latex Mattress">
-                    <i class="bi bi-eye"></i>
-                  </a>
-                  <a href="#" class="icon">
-                    <i class="bi bi-search"></i>
-                  </a>
-                </div>
-                <hr>
-                <h4>Latex Mattress</h4>
-              </div>
-            </div>
-            <!-- Card 11 -->
-            <div class="card">
-              <div class="card-body image-container">
-                <a href="images/gallery/sofa.jpeg" data-lightbox="gallery" data-title="Customized Sofa">
-                  <img src="images/gallery/sofa.jpeg" alt="Layer 2" class="card-img-top" height="200px">
-                </a>
-                <div class="overlay">
-                  <a href="images/gallery/sofa.jpeg" data-lightbox="gallery" class="icon" data-title="Customized Sofa">
-                    <i class="bi bi-eye"></i>
-                  </a>
-                  <a href="#" class="icon">
-                    <i class="bi bi-search"></i>
-                  </a>
-                </div>
-                <hr>
-                <h4>Customized Sofa</h4>
-              </div>
-            </div>
-            <!-- Card 12 -->
-            <div class="card">
-              <div class="card-body image-container">
-                <a href="images/gallery/headboards.jpg" data-lightbox="gallery" data-title="Headboards">
-                  <img src="images/gallery/headboards.jpg" alt="Layer 2" class="card-img-top" height="200px">
-                </a>
-                <div class="overlay">
-                  <a href="images/gallery/headboards.jpg" data-lightbox="gallery" class="icon" data-title="Headboards">
-                    <i class="bi bi-eye"></i>
-                  </a>
-                  <a href="#" class="icon">
-                    <i class="bi bi-search"></i>
-                  </a>
-                </div>
-                <hr>
-                <h4>Headboards</h4>
-              </div>
-            </div>
-            <!-- Card 13 -->
-            <div class="card">
-              <div class="card-body image-container">
-                <a href="images/gallery/cot.jpg" data-lightbox="gallery" data-title="Customized Cots">
-                  <img src="images/gallery/cot.jpg" alt="Layer 2" class="card-img-top" height="200px">
-                </a>
-                <div class="overlay">
-                  <a href="images/gallery/cot.jpg" data-lightbox="gallery" class="icon" data-title="Customized Cots">
-                    <i class="bi bi-eye"></i>
-                  </a>
-                  <a href="#" class="icon">
-                    <i class="bi bi-search"></i>
-                  </a>
-                </div>
-                <hr>
-                <h4>Customized Cots</h4>
-              </div>
-            </div>
-
-
-          </div>
+<!-- Projects Starts -->
+<section class="count_new">
+<div class="container-fluid py-5 d-flex justify-content-center">
+  <div class="row gy-4 w-100 justify-content-center">
+    <!-- Counter 1 -->
+    <div class="col-12 col-md-4 d-flex justify-content-center">
+      <div class="counter-wrapper text-center">
+        <!-- <span class="counter-icon">👨‍👩‍👧‍👧</span> -->
+        <div class="counter-info">
+          <h1 class="counter" data-count="35">0</h1>
+          <p>Years of Experience</p>
         </div>
       </div>
-        <!-- Gallery End -->
+    </div>
+    <!-- Counter 2 -->
+    <div class="col-12 col-md-4 d-flex justify-content-center">
+      <div class="counter-wrapper text-center">
+        <!-- <span class="counter-icon">💼</span> -->
+        <div class="counter-info">
+          <h1 class="counter" data-count="10000">0</h1>
+          <p>Total Projects</p>
+        </div>
+      </div>
+    </div>
+    <!-- Counter 3 -->
+    <div class="col-12 col-md-4 d-flex justify-content-center">
+      <div class="counter-wrapper text-center">
+        <!-- <span class="counter-icon">👨‍👧‍👧</span> -->
+        <div class="counter-info">
+            <h1 class="counter" data-count="5000">0</h1>
+            <p>Happy Clients</p>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>
+</section>
+<!-- Projects End -->
 
-        <!-- Testimonial Start -->
-        <section class="testimonial-section d-flex align-items-center">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3 col-lg-4 col-sm-12 text">
-                <h1 class="testimonial-title">What Our Clients Say</h1>
-                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                  <img src="images/icons/left-arrow.png" alt="prev">
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                  <img src="images/icons/right-arrow.png" alt="prev">
-                  <span class="visually-hidden">Next</span>
-                </button> -->
-              </div>
-              <div class="col-md-9 col-lg-8 col-sm-12 wow slideInRight"> 
-                <div class="row align-items-center">
-                  <div class="col-md-6 testi-img">
-                    <div class="img-box">
-                      <div class="circle"></div>
-                      <div class="img-box-inner">
-                        <img src="images/testimonial/1.png" alt="testi img">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div id="myCarousel" class="carousel slide" data-bs-interval="5000" data-bs-ride="carousel">
-                      <div class="carousel-inner">
-                        <div class="carousel-item testi-item active" data-color="#fb9c9a" data-img="images/testimonial/1.png">
-                          <p>We had a wonderful experience with them. Delivered as promised. The mattress we were recommended was very comfortable and beautiful and very happy with the product.😊</p>
-                          <h3>Vinothvino 5849</h3>
-                        </div>
-                        <div class="carousel-item testi-item" data-color="#fbd39a" data-img="images/testimonial/2.png">
-                          <p>After struggling with back pain for years, I finally found a mattress that gives me the right support. Thank you for such a fantastic product!</p>
-                          <h3>Arun J</h3>
-                        </div>
-                        <div class="carousel-item testi-item" data-color="#9ab0fb" data-img="images/testimonial/3.png">
-                          <p>I’ve been using this mattress for months, and it still feels as good as new. Excellent craftsmanship and long-lasting quality!</p>
-                          <h3>Johnson</h3>
-                        </div>
-                      </div>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-           
-          </div>
-        </section>
-         <!-- Testimonial End -->
 
-      <!-- Footer Start -->
-    <footer class="wow fadeInUp">
-      <div class="row foot-row">
-        <div class="col-md-3 foot-sec">
-         <img src="images/logo-white.png" class="logo" style="max-width: 150px;">
-         <p>Kumar Industries in Nagercoil offers premium mattresses, sofas, pillows, headbands, and more. We focus on blending comfort, durability, and style, using the latest technology to create innovative products.</p>
-        </div>
-        <div class="col-md-3 foot-sec">
-          <h3>Location <div class="underline"><span></span></div></h3>
-          <p>1J/9, Thamarikullam Street,
-            Railway Feeder Road,
-            Kottar,
-            Nagercoil.
-            629002</p>
-          <p>9487411824 9789503035
-            8148196685
-            </p>
-          
-        </div>
-        <div class="col-md-3 foot-sec">
-          <h3>Links <div class="underline"><span></span></div></h3>
-          <ul class="foot-list">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="manufacturing.html">Service</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        </div>
-        <div class="col-md-3 foot-sec">
-          <h3>Get in Touch <div class="underline"><span></span></div></h3>
-          <div class="social-icons">
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-whatsapp"></i>
-              <i class="fa-brands fa-instagram"></i>
-          </div>
-        </div>
+<!-- Gallery Starts --> 
+<div class="container my-5 wow fadeInUp">
+<h2 class="section-title text-center my-4">OUR PROJECTS</h2>
+<center><img src="images/divider.png" class="img-fluid mb-2" style="width: 50%;" /></center>
+<div class="row">
+<div class="owl-carousel owl-theme">
+  <!-- Card 1 -->
+  <div class="card">
+    <div class="card-body image-container">
+      <a href="images/gallery/mattress.jpg" data-lightbox="gallery" data-title="Soft Mattress">
+        <img src="images/gallery/mattress.jpg" alt="Layer 1" class="card-img-top" height="200px">
+      </a>
+      <div class="overlay">
+        <a href="images/gallery/mattress.jpg" data-lightbox="gallery" class="icon" data-title="Soft Mattress">
+          <i class="bi bi-eye"></i>
+        </a>
+        <a href="#" class="icon">
+          <i class="bi bi-search"></i>
+        </a>
       </div>
       <hr>
-      <p class="copyright">© 2025 Kumar Industies all Rights Reserved. Designed and Developed by <a href="https://feathersoftwares.com/" target="_blank" class="text-decoration-none text-white" style="font-weight: bold;">Feather Softwares</a></p>
-     </footer>
-     <!-- Footer End -->
+      <h4>Soft Mattress</h4>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="card">
+    <div class="card-body image-container">
+      <a href="images/gallery/spring-mattress.jpg" data-lightbox="gallery" data-title="Spring Mattress">
+        <img src="images/gallery/spring-mattress.jpg" alt="Layer 2" class="card-img-top" height="200px">
+      </a>
+      <div class="overlay">
+        <a href="images/gallery/spring-mattress.jpg" data-lightbox="gallery" class="icon" data-title="Spring Mattress">
+          <i class="bi bi-eye"></i>
+        </a>
+        <a href="#" class="icon">
+          <i class="bi bi-search"></i>
+        </a>
+      </div>
+      <hr>
+      <h4>Spring Mattress</h4>
+    </div>
+  </div>
+  <!-- Card 3 -->
+  <div class="card">
+    <div class="card-body image-container">
+      <a href="images/gallery/ortho.jpg" data-lightbox="gallery" data-title="Ortho Mattress">
+        <img src="images/gallery/ortho.jpg" alt="Layer 2" class="card-img-top" height="200px">
+      </a>
+      <div class="overlay">
+        <a href="images/gallery/ortho.jpg" data-lightbox="gallery" class="icon" data-title="Ortho Mattress">
+          <i class="bi bi-eye"></i>
+        </a>
+        <a href="#" class="icon">
+          <i class="bi bi-search"></i>
+        </a>
+      </div>
+      <hr>
+      <h4>Ortho Mattress</h4>
+    </div>
+  </div>
+  <!-- Card 4 -->
+  <div class="card">
+    <div class="card-body image-container">
+      <a href="images/gallery/duvet.jpg" data-lightbox="gallery" data-title="Duvet">
+        <img src="images/gallery/duvet.jpg" alt="Layer 2" class="card-img-top" height="200px">
+      </a>
+      <div class="overlay">
+        <a href="images/gallery/duvet.jpg" data-lightbox="gallery" class="icon" data-title="Duvet">
+          <i class="bi bi-eye"></i>
+        </a>
+        <a href="#" class="icon">
+          <i class="bi bi-search"></i>
+        </a>
+      </div>
+      <hr>
+      <h4>Duvet</h4>
+    </div>
+  </div>
+  <!-- Card 5 -->
+  <div class="card">
+    <div class="card-body image-container">
+      <a href="images/gallery/fitted-bedcovers.jpg" data-lightbox="gallery" data-title="Fitted Bed Covers">
+        <img src="images/gallery/fitted-bedcovers.jpg" alt="Layer 2" class="card-img-top" height="200px">
+      </a>
+      <div class="overlay">
+        <a href="images/gallery/fitted-bedcovers.jpg" data-lightbox="gallery" class="icon" data-title="Fitted Bed Covers">
+          <i class="bi bi-eye"></i>
+        </a>
+        <a href="#" class="icon">
+          <i class="bi bi-search"></i>
+        </a>
+      </div>
+      <hr>
+      <h4>Fitted Bed Covers</h4>
+    </div>
+  </div>
+  <!-- Card 6 -->
+  <div class="card">
+    <div class="card-body image-container">
+      <a href="images/gallery/recron-pillows.jpg" data-lightbox="gallery" data-title="Recorn Pillows">
+        <img src="images/gallery/recron-pillows.jpg" alt="Layer 2" class="card-img-top" height="200px">
+      </a>
+      <div class="overlay">
+        <a href="images/gallery/recron-pillows.jpg" data-lightbox="gallery" class="icon" data-title="Recorn Pillows">
+          <i class="bi bi-eye"></i>
+        </a>
+        <a href="#" class="icon">
+          <i class="bi bi-search"></i>
+        </a>
+      </div>
+      <hr>
+      <h4>Recorn Pillows</h4>
+    </div>
+  </div>
+  <!-- Card 7 -->
+  <div class="card">
+    <div class="card-body image-container">
+      <a href="images/gallery/neck-pillow.jpg" data-lightbox="gallery" data-title="Neck Pillows">
+        <img src="images/gallery/neck-pillow.jpg" alt="Layer 2" class="card-img-top" height="200px">
+      </a>
+      <div class="overlay">
+        <a href="images/gallery/neck-pillow.jpg" data-lightbox="gallery" class="icon" data-title="Neck Pillows">
+          <i class="bi bi-eye"></i>
+        </a>
+        <a href="#" class="icon">
+          <i class="bi bi-search"></i>
+        </a>
+      </div>
+      <hr>
+      <h4>Neck Pillows</h4>
+    </div>
+  </div>
+  <!-- Card 8 -->
+  <div class="card">
+    <div class="card-body image-container">
+      <a href="images/gallery/memory-pillows.jpg" data-lightbox="gallery" data-title="Memory Pillows">
+        <img src="images/gallery/memory-pillows.jpg" alt="Layer 2" class="card-img-top" height="200px">
+      </a>
+      <div class="overlay">
+        <a href="images/gallery/memory-pillows.jpg" data-lightbox="gallery" class="icon" data-title="Memory Pillows">
+          <i class="bi bi-eye"></i>
+        </a>
+        <a href="#" class="icon">
+          <i class="bi bi-search"></i>
+        </a>
+      </div>
+      <hr>
+      <h4>Memory Pillows</h4>
+    </div>
+  </div>
+    <!-- Card 9 -->
+    <div class="card">
+    <div class="card-body image-container">
+      <a href="images/gallery/comforter.jpg" data-lightbox="gallery" data-title="Comforter">
+        <img src="images/gallery/comforter.jpg" alt="Layer 2" class="card-img-top" height="200px">
+      </a>
+      <div class="overlay">
+        <a href="images/gallery/comforter.jpg" data-lightbox="gallery" class="icon" data-title="Comforter">
+          <i class="bi bi-eye"></i>
+        </a>
+        <a href="#" class="icon">
+          <i class="bi bi-search"></i>
+        </a>
+      </div>
+      <hr>
+      <h4>Comforter</h4>
+    </div>
+  </div>
+  <!-- Card 10 -->
+  <div class="card">
+    <div class="card-body image-container">
+      <a href="images/gallery/latex-mattress.jpg" data-lightbox="gallery" data-title="Latex Mattress">
+        <img src="images/gallery/latex-mattress.jpg" alt="Layer 2" class="card-img-top" height="200px">
+      </a>
+      <div class="overlay">
+        <a href="images/gallery/latex-mattress.jpg" data-lightbox="gallery" class="icon" data-title="Latex Mattress">
+          <i class="bi bi-eye"></i>
+        </a>
+        <a href="#" class="icon">
+          <i class="bi bi-search"></i>
+        </a>
+      </div>
+      <hr>
+      <h4>Latex Mattress</h4>
+    </div>
+  </div>
+  <!-- Card 11 -->
+  <div class="card">
+    <div class="card-body image-container">
+      <a href="images/gallery/sofa.jpeg" data-lightbox="gallery" data-title="Customized Sofa">
+        <img src="images/gallery/sofa.jpeg" alt="Layer 2" class="card-img-top" height="200px">
+      </a>
+      <div class="overlay">
+        <a href="images/gallery/sofa.jpeg" data-lightbox="gallery" class="icon" data-title="Customized Sofa">
+          <i class="bi bi-eye"></i>
+        </a>
+        <a href="#" class="icon">
+          <i class="bi bi-search"></i>
+        </a>
+      </div>
+      <hr>
+      <h4>Customized Sofa</h4>
+    </div>
+  </div>
+  <!-- Card 12 -->
+  <div class="card">
+    <div class="card-body image-container">
+      <a href="images/gallery/headboards.jpg" data-lightbox="gallery" data-title="Headboards">
+        <img src="images/gallery/headboards.jpg" alt="Layer 2" class="card-img-top" height="200px">
+      </a>
+      <div class="overlay">
+        <a href="images/gallery/headboards.jpg" data-lightbox="gallery" class="icon" data-title="Headboards">
+          <i class="bi bi-eye"></i>
+        </a>
+        <a href="#" class="icon">
+          <i class="bi bi-search"></i>
+        </a>
+      </div>
+      <hr>
+      <h4>Headboards</h4>
+    </div>
+  </div>
+  <!-- Card 13 -->
+  <div class="card">
+    <div class="card-body image-container">
+      <a href="images/gallery/cot.jpg" data-lightbox="gallery" data-title="Customized Cots">
+        <img src="images/gallery/cot.jpg" alt="Layer 2" class="card-img-top" height="200px">
+      </a>
+      <div class="overlay">
+        <a href="images/gallery/cot.jpg" data-lightbox="gallery" class="icon" data-title="Customized Cots">
+          <i class="bi bi-eye"></i>
+        </a>
+        <a href="#" class="icon">
+          <i class="bi bi-search"></i>
+        </a>
+      </div>
+      <hr>
+      <h4>Customized Cots</h4>
+    </div>
+  </div>
+
+
+</div>
+</div>
+</div>
+<!-- Gallery End -->
+
+<!-- Testimonial Start -->
+<section class="testimonial-section d-flex align-items-center">
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 col-lg-4 col-sm-12 text">
+      <h1 class="testimonial-title">What Our Clients Say</h1>
+      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <img src="images/icons/left-arrow.png" alt="prev">
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <img src="images/icons/right-arrow.png" alt="prev">
+        <span class="visually-hidden">Next</span>
+      </button> -->
+    </div>
+    <div class="col-md-9 col-lg-8 col-sm-12 wow slideInRight"> 
+      <div class="row align-items-center">
+        <div class="col-md-6 testi-img">
+          <div class="img-box">
+            <div class="circle"></div>
+            <div class="img-box-inner">
+              <img src="images/testimonial/1.png" alt="testi img">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div id="myCarousel" class="carousel slide" data-bs-interval="5000" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item testi-item active" data-color="#fb9c9a" data-img="images/testimonial/1.png">
+                <p>We had a wonderful experience with them. Delivered as promised. The mattress we were recommended was very comfortable and beautiful and very happy with the product.😊</p>
+                <h3>Vinothvino 5849</h3>
+              </div>
+              <div class="carousel-item testi-item" data-color="#fbd39a" data-img="images/testimonial/2.png">
+                <p>After struggling with back pain for years, I finally found a mattress that gives me the right support. Thank you for such a fantastic product!</p>
+                <h3>Arun J</h3>
+              </div>
+              <div class="carousel-item testi-item" data-color="#9ab0fb" data-img="images/testimonial/3.png">
+                <p>I’ve been using this mattress for months, and it still feels as good as new. Excellent craftsmanship and long-lasting quality!</p>
+                <h3>Johnson</h3>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+</section>
+<!-- Testimonial End -->
+
+<!-- Footer Start -->
+<footer class="wow fadeInUp">
+<div class="row foot-row">
+  <div class="col-md-3 foot-sec">
+    <img src="images/logo-white.png" class="logo" style="max-width: 150px;">
+    <p>Kumar Industries in Nagercoil offers premium mattresses, sofas, pillows, headbands, and more. We focus on blending comfort, durability, and style, using the latest technology to create innovative products.</p>
+  </div>
+  <div class="col-md-3 foot-sec">
+    <h3>Location <div class="underline"><span></span></div></h3>
+    <p>1J/9, Thamarikullam Street,
+      Railway Feeder Road,
+      Kottar,
+      Nagercoil.
+      629002</p>
+    <p>9487411824 9789503035
+      8148196685
+      </p>
+    
+  </div>
+  <div class="col-md-3 foot-sec">
+    <h3>Links <div class="underline"><span></span></div></h3>
+    <ul class="foot-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="manufacturing.html">Service</a></li>
+      <li><a href="contact.html">Contact</a></li>
+  </ul>
+  </div>
+  <div class="col-md-3 foot-sec">
+    <h3>Get in Touch <div class="underline"><span></span></div></h3>
+    <div class="social-icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+  </div>
+</div>
+<hr>
+<p class="copyright">© 2025 Kumar Industies all Rights Reserved. Designed and Developed by <a href="https://feathersoftwares.com/" target="_blank" class="text-decoration-none text-white" style="font-weight: bold;">Feather Softwares</a></p>
+</footer>
+<!-- Footer End -->
 
 <!-- JS ADD -->
  <script src="js/script.js"></script>
