@@ -61,6 +61,15 @@ html {
         background-color: black;
     }
 }
+.offcanvas{
+    background-color: #00000099 !important;
+}
+.fa-bars::before{
+    color: white !important;
+}
+.fa-xmark{
+    color: white !important;
+}
 /* --------------------------------------
   Home
 ----------------------------------------*/
